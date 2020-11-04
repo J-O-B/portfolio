@@ -27,21 +27,26 @@ h1{
     border-color: red;
 }
 
-.callout-container {
+.welcome-container {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
 .about-container,
 .project-container,
 .service-container,
-.work-container {
+.work-container,
+.contact-container {
     background:rgba(0, 0, 0, 0.5);
-    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
 }
 
@@ -106,12 +111,6 @@ h1{
 
 .block-divider--short {
     width: 35px;
-}
-
-/* Content containers */
-.content-container{
-    padding-top:50px;
-    padding-bottom:50px;
 }
 
 /* Navbar area */
@@ -216,7 +215,8 @@ h1{
 .about-container:hover,
 .project-container:hover,
 .service-container:hover,
-.work-container,{
+.work-container,
+.contact-container{
     background: linear-gradient(0,rgba(240,95,64, 0.0), rgba(240,95,64, 0.3), rgba(240,95,64, 0.0));
 }
 }
