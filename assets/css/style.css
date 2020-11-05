@@ -1,29 +1,33 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color:white;
+    color: slategray;
 }
-.background-wrap{
-    background: url('../images/background.jpg') no-repeat center center fixed;
+
+.background-wrap {
+    background: url('../images/background.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-h1{
+
+h1 {
     font-size: 300%;
 }
 
+
 /* Containers */
 
-.alert-container .col-12{
-    padding-left:0;
-    padding-right:0;
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
-.site-wide-alert{
-    border-radius:0;
-    margin-bottom:0;
-    padding:5px 15px;
-    background-image: linear-gradient(to right, #f05f40 , white, #f05f40);
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, #f05f40, white, #f05f40);
     border-color: red;
 }
 
@@ -35,66 +39,68 @@ h1{
     position: relative;
 }
 
-.about-container,
-.project-container,
-.service-container,
-.work-container,
-.contact-container {
-    background:rgba(0, 0, 0, 0.5);
-    padding-top:50px;
-    padding-bottom:50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+.section-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 /* Page headers */
-.page-header{
-    margin-bottom:0;
-    border-bottom:0;
-    text-align:center;
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
 }
-.page-header h2{
-    margin-top:0;
+
+.page-header h2 {
+    margin-top: 0;
 }
+
 .about,
 .projects,
 .services,
-.page-header{
+.contact,
+.work,
+.page-header {
     margin-bottom: 25px;
 }
 
-/* Card Containers - #f05f40 translated into RGB*/
+
+/* Card Containers*/
+
 .about,
 .projects,
-.services{
-    background: radial-gradient(rgba(240,95,64, 0.9),rgba(0, 0, 0, 0.1));
+.services,
+.contact,
+.work {
+    background: radial-gradient(rgba(240, 95, 64, 0.9), rgba(0, 0, 0, 0.1));
     border-radius: 25px;
- }
-
-.services{
-    background: radial-gradient(rgba(240,95,64, 0.9),rgba(0, 0, 0, 0.1));
-    border-radius: 25px;
-    padding: 20px;
     text-align: center;
+    color: white;
 }
-.services i{
-    margin:20px;
+
+.services {
+    padding: 20px;
+}
+
+.services i {
+    margin: 20px;
     font-size: 45px;
-    line-height:45px;
+    line-height: 45px;
 }
-.services .btn{
-    background:white;
+
+.services .btn {
+    background: white;
     border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color:#f05f40;
+    color: #f05f40;
 }
+
 
 /* Block dividers */
 
@@ -113,40 +119,59 @@ h1{
     width: 35px;
 }
 
+
+/*---------------------------------------------------------Section Specific CSS------------------------------------------*/
+
+
 /* Navbar area */
-.navalert-container{
-    position:absolute;
-    top:0;
-    left:0;
-    padding-left:0;
-    padding-right:0;
-    z-index:1;
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    z-index: 1;
 }
 
-.navbar{
-    margin-bottom:0;
-    border:0;
-    width:100%;
-    background-color: rgba(0,0,0, 0.25);
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(30, 31, 35, 1);
 }
 
-.navbar .navbar-toggler{
-    border:0;
+.navbar .navbar-toggler {
+    border: 0;
 }
 
-.navbar-brand{
-    font-weight:bold;
-}
-
-.navbar .navbar-nav a{
+.navbar-brand {
     font-weight: bold;
 }
 
-.navbar .navbar-nav{
+.navbar .navbar-nav a {
     font-weight: bold;
+    font-size: 200%;
 }
 
-/* Jumbotron */
+
+/* - Only Use If Text In Nav Area
+
+.navbar .navbar-nav {
+    font-weight: bold;
+}
+-----------*/
+
+
+/* --------------------------------------------Welcome area---------------------------------------- */
+
+.profile {
+    border-radius: 50%;
+}
+
+
+/*----------------------------- Jumbotron --------------------------------------------*/
 
 .jumbotron {
     background-color: transparent;
@@ -160,17 +185,13 @@ h1{
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: white;
     margin: 25px 0;
+    font-size: 150%;
 }
 
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
-}
 
-/* Buttons */
+/*----------------------------------------------------------------------- Buttons ----------------------------------------*/
 
 .btn--cta {
     font-weight: bold;
@@ -193,30 +214,71 @@ h1{
     color: white;
 }
 
-/* Animate style only for screens larger than 1024px*/
-@media only screen and (min-width: 1024px){
-    /* hover feature transform */
-.feature {
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
-}
-.feature:hover, .feature:focus, .feature:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+/*-------------------------------------------------------------------- Animation Section ------------------*/
+
+@media only screen and (min-width: 1024px) {
+    .feature {
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    .feature:hover,
+    .feature:focus,
+    .feature:active {
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 }
 
+
 /* hover linear gradient */
+
 .about-container:hover,
 .project-container:hover,
 .service-container:hover,
 .work-container,
-.contact-container{
-    background: linear-gradient(0,rgba(240,95,64, 0.0), rgba(240,95,64, 0.3), rgba(240,95,64, 0.0));
+.contact-container {
+    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(240, 95, 64, 0.3), rgba(240, 95, 64, 0.0));
 }
+
+
+/* ---------------------Modal Section --------------------*/
+
+.modal {
+    color: black;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: slategray;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.project {
+    margin-bottom: 30px;
 }
