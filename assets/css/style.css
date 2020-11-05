@@ -60,7 +60,7 @@ h1 {
 
 .about,
 .projects,
-.services,
+.products,
 .contact,
 .work,
 .page-header {
@@ -72,7 +72,7 @@ h1 {
 
 .about,
 .projects,
-.services,
+.products,
 .contact,
 .work {
     background: radial-gradient(rgba(240, 95, 64, 0.9), rgba(0, 0, 0, 0.1));
@@ -81,17 +81,17 @@ h1 {
     color: white;
 }
 
-.services {
+.products {
     padding: 20px;
 }
 
-.services i {
+.products i {
     margin: 20px;
     font-size: 45px;
     line-height: 45px;
 }
 
-.services .btn {
+.products .btn {
     background: white;
     border-color: white;
     border-radius: 15px;
@@ -102,7 +102,7 @@ h1 {
 }
 
 
-/* Block dividers */
+/* Block Dividers */
 
 .block-divider {
     width: 75px;
@@ -120,7 +120,7 @@ h1 {
 }
 
 
-/*---------------------------------------------------------Section Specific CSS------------------------------------------*/
+/*---------------------------------------------------------<< Section Specific CSS >>------------------------------------------*/
 
 
 /* --------------------------------------------------------- Navbar area -----------------------------------------------*/
@@ -155,16 +155,18 @@ h1 {
     font-size: 200%;
 }
 
+/* CV Download button will display in different locations depending on user device */
 @media only screen and (max-width: 800px) {
   .cv-button {
     display:none;
   }
 }
-
-
-.cv-button-mobile
+@media only screen and (min-width:800px){
+    .cv-button-mobile{
+        display:none;
+    }
+}
 /* --------------------------------------------Welcome area---------------------------------------- */
-
 .profile {
     border-radius: 50%;
 }
@@ -241,9 +243,7 @@ h1 {
 .social-links li a i:hover{
     background: red;
 }
-
-/*----------------------------- Jumbotron --------------------------------------------*/
-
+/*-------------------------------------------- Jumbotron Headings ---------------------------------------------*/
 .jumbotron {
     background-color: transparent;
 }
@@ -260,10 +260,7 @@ h1 {
     margin: 25px 0;
     font-size: 150%;
 }
-
-
-/*----------------------------------------------------------------------- Buttons ----------------------------------------*/
-
+/*------------------------------------------------- Buttons ---------------------------------------------------*/
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -284,11 +281,8 @@ h1 {
     border-color: #df4929;
     color: white;
 }
-
-
 /*-------------------------------------------------------------------- Animation Section ------------------*/
-
-/*This 'feature' animation is originally from W3 Schools */
+/*This '.feature' animation is originally from W3 Schools */
 @media only screen and (min-width: 1024px) {
     .feature {
         -webkit-transform: perspective(1px) translateZ(0);
@@ -311,19 +305,15 @@ h1 {
 /* hover linear gradient */
 .about-container:hover,
 .project-container:hover,
-.service-container:hover,
-.work-container:hover,
-.contact-container:hover {
+.product-container:hover,
+.work-container:hover {
     background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(240, 95, 64, 0.3), rgba(240, 95, 64, 0.0));
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
 }
-
-
-/* ---------------------Modal Section --------------------*/
-
+/* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
     color: black;
     height: 90vh;
