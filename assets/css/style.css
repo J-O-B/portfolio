@@ -123,7 +123,7 @@ h1 {
 /*---------------------------------------------------------Section Specific CSS------------------------------------------*/
 
 
-/* Navbar area */
+/* --------------------------------------------------------- Navbar area -----------------------------------------------*/
 
 .navalert-container {
     position: absolute;
@@ -155,6 +155,14 @@ h1 {
     font-size: 200%;
 }
 
+@media only screen and (max-width: 800px) {
+  .cv-button {
+    display:none;
+  }
+}
+
+
+.cv-button-mobile
 /* --------------------------------------------Welcome area---------------------------------------- */
 
 .profile {
@@ -182,6 +190,22 @@ h1 {
 .feature{
     margin-top:20px;
 }
+/* ------------------------------------------Work With Me (contact) ----------------------------------- */
+.contact-img{
+    max-width:100%;
+    height:auto;
+    margin-bottom:30px;
+    padding:0;
+}
+.contact-form{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+}
+.input{
+    width:80%;
+}
 
 /* ---------------------------------------------- Footer ---------------------------------------------- */
 .footer{
@@ -190,10 +214,12 @@ h1 {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
+    background-color: rgba(30, 31, 35, 0.8);
     color:white;
     z-index: 1;
 }
 .social-links{
+    margin:0;
     padding-bottom: 15px;
 }
 .social-links li a i{
@@ -202,6 +228,7 @@ h1 {
     padding:12px 0;
     border-radius:50%;
     font-size:13px;
+    margin-right:10px;
     line-height: 7px;
     text-align:center;
     color: #fafafa;
