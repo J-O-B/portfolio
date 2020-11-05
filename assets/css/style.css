@@ -165,6 +165,12 @@ h1 {
     font-size:80%;
     margin:10px 50px 10px 50px;
 }
+/* -------------------------------------------Projects area ---------------------------------------- */
+.rounded-image{
+    border-radius:50%;
+    height:200px;
+    width:200px;
+}
 
 /*----------------------------- Jumbotron --------------------------------------------*/
 
@@ -212,6 +218,7 @@ h1 {
 
 /*-------------------------------------------------------------------- Animation Section ------------------*/
 
+/*This 'feature' animation is originally from W3 Schools */
 @media only screen and (min-width: 1024px) {
     .feature {
         -webkit-transform: perspective(1px) translateZ(0);
@@ -231,9 +238,7 @@ h1 {
     }
 }
 
-
 /* hover linear gradient */
-
 .about-container:hover,
 .project-container:hover,
 .service-container:hover,
