@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: slategray;
+    text-decoration: none;
 }
 
 .background-wrap {
@@ -245,6 +246,7 @@ h1 {
 .social-bar i:hover {
     background:#fafafa;
     color: rgba(240, 95, 64, 1);
+    width:110%;
 }
 }
 @media only screen and (max-width:768px){
@@ -315,6 +317,10 @@ h1 {
     color: #fafafa;
     background-color: rgba(240, 95, 64, 1);
     border-color: rgba(240, 95, 64, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .btn--red:hover,
@@ -368,7 +374,7 @@ h1 {
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
     color: black;
-    height: 90vh;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -379,7 +385,7 @@ h1 {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .progress-type {
