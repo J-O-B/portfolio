@@ -178,6 +178,7 @@ h1 {
 /*--------------------------------------------About Me----------------------------------------------*/
 .social-icon i{
     font-size:150%;
+    color:#fafafa;
 }
 
 
@@ -218,18 +219,18 @@ h1 {
 @media only screen and (min-width:768px){
 .social-bar {
     position: fixed;
-    top: 33%;
+    top: 30%;
+    list-style-type: none;
 }
-.social-bar i {
-  display: block;
+.social-bar i{
+    display: block;
     width:50px;
     height:50px;
     padding:12px 0;
     border-radius:50%;
     font-size:30px;
-    margin-left:10px;
+    margin-left:50px;
     margin-bottom:50px;
-    text-decoration: none;
     text-align:center;
     color: #fafafa;
     background: rgba(240, 95, 64, 1);
@@ -238,8 +239,12 @@ h1 {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+.social-bar a{
+    text-decoration: none;
+}
 .social-bar i:hover {
-    background:green;
+    background:#fafafa;
+    color: rgba(240, 95, 64, 1);
 }
 }
 @media only screen and (max-width:768px){
@@ -307,18 +312,18 @@ h1 {
 }
 
 .btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    color: #fafafa;
+    background-color: rgba(240, 95, 64, 1);
+    border-color: rgba(240, 95, 64, 1);
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
+    background: #fafafa;
+    border-color: #fafafa;
+    color: rgba(240, 95, 64, 1);
 }
 /*-------------------------------------------------------------------- Animation Section ------------------*/
 /*This '.feature' animation is originally from W3 Schools */
