@@ -28,6 +28,18 @@ body {
 h1 {
     font-size: 300%;
 }
+.back-to-top i{
+    font-size:30px;
+    width:30px;
+    text-align: center;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    color:#fafafa;
+    background:rgba(240, 95, 64, 1);
+    border-radius:50%;
+    z-index:1;
+}
 
 /* Social icons sidebar desktop only  */
 
