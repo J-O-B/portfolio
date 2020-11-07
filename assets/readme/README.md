@@ -1,5 +1,5 @@
 # Milestone Project One
-image here---
+[Portfolio](assets/readme/preview.jpg)
 ## Personal Portfolio
 
     Welcome to my first milestone project! For this project I chose to create a personal portfolio. My 

@@ -1,3 +1,15 @@
+/* Sections:
+1 - General CSS
+2 - Containers
+3 - Headers
+4 - Card (section) Containers
+5 - Dividers
+6 - Area Specific CSS
+7 - Jumbotron
+8 - Buttons
+9 - Animation Section
+10 - Modal Specific
+*/
 /*----------------------------------------General CSS -----------------------------------------*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,9 +29,9 @@ h1 {
     font-size: 300%;
 }
 
-/* Social icons sidebar desktop only */
+/* Social icons sidebar desktop only  */
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:1350px){
 .social-bar {
     position: fixed;
     top: 30%;
@@ -32,15 +44,15 @@ h1 {
     padding:12px 0;
     border-radius:50%;
     font-size:30px;
-    margin-left:50px;
+    margin-left:10px;
     margin-bottom:50px;
     text-align:center;
     color: #fafafa;
     background: rgba(240, 95, 64, 1);
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 .social-bar a{
     text-decoration: none;
@@ -51,7 +63,7 @@ h1 {
     width:110%;
 }
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1349px){
 .social-bar {
     display:none;
 }
@@ -194,7 +206,7 @@ h1 {
     display:none;
   }
 }
-@media only screen and (min-width:768px){
+@media only screen and (min-width:769px){
     .coding-button-mobile{
         display:none;
     }
@@ -259,6 +271,24 @@ h1 {
     color:white;
     z-index: 1;
 }
+.download{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.download-button,
+.download-button i{
+    background: rgba(240, 95, 64, 1);
+    color:#fafafa;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.download-button i:hover{
+    background: #fafafa;
+    color:black;
+}
+
 .social-links{
     margin:0;
     padding-bottom: 15px;
@@ -354,21 +384,31 @@ h1 {
 }
 
 /* hover linear gradient */
+.about-container,
+.project-container,
+.product-container,
+.work-container {
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
 .about-container:hover,
 .project-container:hover,
 .product-container:hover,
 .work-container:hover {
     background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(240, 95, 64, 0.3), rgba(240, 95, 64, 0.0));
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
     color: black;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
+}
+.modal-dialog {
+    top:10%;
 }
 
 .modal-content {
