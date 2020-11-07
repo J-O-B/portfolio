@@ -1,4 +1,5 @@
 # Milestone Project One
+image here---
 ## Personal Portfolio
 
     Welcome to my first milestone project! For this project I chose to create a personal portfolio. My 
@@ -36,7 +37,13 @@
     3. [Acknowledgements](#Acknowledgements)
 
 ## Description
-
+    This development is a personal portfolio page. The aim of this project is to convey my experience to a potential 
+    recruiter. At this point in time, I have added two "placeholder" projects, which will be replaced by real projects
+    as I progress through the course at Code Institute. Ultimately I will add further features to this page in the 
+    future, such as pagination style feature for projects. 
+    
+    I have also added a basic contact me form which at this point in time does not work. A future update will enable
+    this feature using an API.
 ---------------
 ## UX
     Being a front end development, UX was extremely important. Easy access to information via easy to find 
@@ -145,26 +152,46 @@ PLACE AN IMAGE HERE
 ### Local Deployment
 To deploy this project on your local system, you can follow these steps:
 
-1. One
-2. Two
+1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
+2. Above the files there is a button with a download symbol and the text "Code"
+3. Once you click the button "Code" you will have an option to "Download ZIP"
+4. Download the ZIP file and extract the folder on your local computer.
+5. Open the index.html to deploy this website locally.
+**Please note that all files and folders must be kept in their original locations (folders) for page links (to internal**
+
+**resources such as images) to work. External links to social media etc. will work regardless.**
 
     
 ### Remote Deployment
 To deploy this project remotely, you can follow these steps:
-1. one
-2. two
+1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
+2. Close to the top of the page there is a navigation bar, the first item here is "<>Code", the last item is "Settings".
+3. Click on settings
+4. Scroll down the page until you find the section labelled "GitHub Pages"
+5. The first item in GitHub Pages is "Source", click the associated dropdown button labelled "None". 
+6. You will now have to select "master" as the source.
+7. Once you have selected "master" click the "Save" button. 
+8. The page should now refresh so you may have to scroll back down to "GitHub Pages".
+9. Now you will see a link presented which should look like this https://j-o-b.github.io/portfolio/.
 ----------------------
 ## Credits
     Although most of the content and code in this project is my own, I have also used code snippets from bootstrap, 
     for example the modal popup is the standard bootstrap modal which was then changed to hold the "my coding" section.
     
-    The narbar is the same navbar which was used in Whiskey Drop.
+    The narbar is based on the same navbar which was used in Whiskey Drop.
+    The footer layout is based on the footer section used in the Resume tutorial.
+    The modal feature is based on a code snipped from Bootstrap Documentation.
+    The "feature" section of my CSS is original yet based on a tutorial from W3Schools.com
     
 
 ### Media
 Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
 
 Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+
+Logo Image - [WIX](https://www.wix.com/logo/maker)
 ### Content
+    All of the text content in this project is original content. 
 
 ### Acknowledgements
+    I would like to acknowledge both my mentor 
