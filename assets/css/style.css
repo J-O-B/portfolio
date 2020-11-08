@@ -98,6 +98,7 @@ h1 {
 
 .welcome-container {
     height: 100vh;
+    top:15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,10 +221,10 @@ h1 {
 .project-nav,
 .what-do-i-offer-nav,
 .work-nav{
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 .home-nav:hover{
     background: rgba(240, 95, 64, 0.8);
@@ -267,13 +268,24 @@ h1 {
     font-size:80%;
     margin:10px 50px 10px 50px;
 }
+@media only screen and (max-width:425px){
+    .welcome-container{
+        margin-top:20%;
+    }
+    .navbar-brand img{
+        max-width:60%;
+    }
+}
 /*--------------------------------------------About Me----------------------------------------------*/
 .social-icon i{
     font-size:150%;
     color:#fafafa;
 }
-
-
+@media only screen and (max-width:375px){
+#about img{
+    max-width:100%;
+}
+}
 /* -------------------------------------------Projects area ---------------------------------------- */
 .rounded-image{
     border-radius:50%;
@@ -438,24 +450,23 @@ h1 {
 .product-container,
 .work-container {
     background: rgba(0, 0, 0, 0.5);
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
 }
 
 .about-container:hover{
-    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(223, 25, 25, 0.3), rgba(240, 95, 64, 0.0));
+    background: rgba(223, 25, 25, 0.3);
 }
 .project-container:hover{
-    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(119, 9, 192, 0.3), rgba(240, 95, 64, 0.0));
+    background:  rgba(119, 9, 192, 0.3);
 }
 .product-container:hover{
-    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(241, 102, 8, 0.3), rgba(240, 95, 64, 0.0));
+    background: rgba(241, 102, 8, 0.3);
 }
-
 .work-container:hover {
-    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(15, 51, 194, 0.3), rgba(240, 95, 64, 0.0));
+    background: rgba(15, 51, 194, 0.3);
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
