@@ -213,6 +213,36 @@ h1 {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+/*Link hover colors*/
+.home-nav,
+.contact-nav,
+.about-nav,
+.project-nav,
+.what-do-i-offer-nav,
+.work-nav{
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.home-nav:hover{
+    background: rgba(240, 95, 64, 0.8);
+}
+.contact-nav:hover{
+    background:rgba(15, 51, 194, 0.8);
+}
+.about-nav:hover{
+    background: rgba(223, 25, 25, 0.8);
+}
+.project-nav:hover{
+    background: rgba(119, 9, 192, 0.8);
+}
+.what-do-i-offer-nav:hover{
+    background: rgba(241, 102, 8, 0.8);
+}
+.work-nav:hover{
+    background: rgba(15, 51, 194, 0.8);
+}
 .cv-button a{
     margin-right:100px;
 }
@@ -341,7 +371,6 @@ h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 
 .jumbotron .lead {
@@ -415,11 +444,18 @@ h1 {
     -o-transition: all 1s ease-in-out;
 }
 
-.about-container:hover,
-.project-container:hover,
-.product-container:hover,
+.about-container:hover{
+    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(223, 25, 25, 0.3), rgba(240, 95, 64, 0.0));
+}
+.project-container:hover{
+    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(119, 9, 192, 0.3), rgba(240, 95, 64, 0.0));
+}
+.product-container:hover{
+    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(241, 102, 8, 0.3), rgba(240, 95, 64, 0.0));
+}
+
 .work-container:hover {
-    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(240, 95, 64, 0.3), rgba(240, 95, 64, 0.0));
+    background: linear-gradient(0, rgba(240, 95, 64, 0.0), rgba(15, 51, 194, 0.3), rgba(240, 95, 64, 0.0));
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
