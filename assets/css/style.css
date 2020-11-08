@@ -329,6 +329,9 @@ h1 {
 .social-links li a i:hover{
     background: green;
 }
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
 /*-------------------------------------------- Jumbotron Headings ---------------------------------------------*/
 .jumbotron {
     background-color: transparent;
