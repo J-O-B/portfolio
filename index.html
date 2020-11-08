@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="d-none d-md-block cv-button">
-                    <button class="coding-button btn btn--cta btn--red" data-toggle="modal" data-target="#experienceModal">My Coding  <i class="fas fa-eye"></i></button>
+                    <button class="coding-button btn btn--cta btn--red" data-toggle="modal" data-target="#experienceModal">Coding Experience <i class="fas fa-eye"></i></button>
                 </div>
             </nav>
         </div>
@@ -65,7 +65,7 @@
                         <hr class="block-divider block-divider--orange">
                         <p class="lead">Full Stack Developer <br> Graphic Design & SEO</p>
                         <p><a href="assets/cv/cv.pdf" target="_blank" class="btn btn--cta btn--red" role="button" aria-label="Download Link For CV.pdf"><em>My CV: </em><i class="fa fa-download"></i></a></p>
-                        <p><button class="coding-button-mobile btn btn--cta btn--red" data-toggle="modal" data-target="#experienceModal">My Coding  <i class="fas fa-eye"></i></button></p>
+                        <p><button class="coding-button-mobile btn btn--cta btn--red" data-toggle="modal" data-target="#experienceModal">Coding Experience  <i class="fas fa-eye"></i></button></p>
                     </div>
                 </div>
             </div>
@@ -83,11 +83,13 @@
                         <p>
                             Hi, I'm John O'Brien. I'm a full-stack development student with Code Institute based out of Dublin, Ireland.
                             <br><br>
-                            Having a history in Java programming and a strong interest in web and graphic design, I decided to take the jump and start learning multiple coding languages via <a href="https://freecodecamp.org">Free Code Camp</a> and
-                            <a href="https://www.codecademy.com/">Code Cademy</a>. Although these platforms are extremely useful, I wanted to complete a course covering full stack development that will result in an accredited diploma, hence my entry into
-                            <a href="https://codeinstitute.net/">Code Institute</a>.
+                            I have 10 years of experience in the aviaton sector and 3 years experience in web development (WordPress & SEO). <br>I have recently
+                            started studying full stack development due to a personal interest in coding.
                         </p>
-                        <p><cite>- John O'Brien</cite></p>
+                        <p>
+                            <cite>- John O'Brien</cite><br>
+                            <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#aboutMeModal">Read More...  <i class="fas fa-info-circle"></i></button>
+                        </p>
                     </div>
                 </div>
                 <!--social media links-->
@@ -215,7 +217,7 @@
         <section class="work-container section-container">
             <div class="container work">
                 <div class="row">
-                    <div class="col-12" id="work">
+                    <div class="col-12">
                         <div class="col-12 page-header" id="work">
                             <h2 class="text-uppercase">Work With Me</h2>
                             <hr class="block-divider block-divider--orange">
@@ -309,7 +311,8 @@
         </footer>    
         <!--/.Footer-->
         <!--Popup Using Modal-->
-        <div class="modal" tabindex="-1" role="dialog" id=experienceModal>
+            <!--Experience Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="experienceModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -355,6 +358,39 @@
                         </div>
                     </div>
                     <p class="text-center">Download My CV : <a href="assets/cv/cv.pdf" target="_blank"><i class="fas fa-download"></i></a></p>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--About Me Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="aboutMeModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">About Me:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row about-me-modal">
+                            <div class="col">
+                                <p>  
+                                    As an aviation professional, working as part of a team is one of my strengths. I am also outgoing, dedicated and open-minded.
+                                    Being used to working in a team, I get across to people and adjust well to changes. The key to success in my professional life
+                                    so far, is that I strongly believe I have never stopped learning and will always be motivated to learn new skills and expand my 
+                                    knowledge. <br>
+                                    Although my background is within the aviation sector, most of my skills and attributes are compatable with any career. Leadership
+                                    skills as well as problem solving and decision making are just some of the attributes I can add to your team. 
+                                    <br><br>
+                                    Should you wish to know more about me, do not hesitate to contact me via the contact form located at the bottom of the page.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>

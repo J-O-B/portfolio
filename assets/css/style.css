@@ -206,6 +206,10 @@ h1 {
     padding:0;
 }
 
+.navbar-collapse{
+    background:rgba(30, 31, 35, 1);
+}
+
 .navbar .navbar-nav a {
     font-weight: bold;
 }
@@ -416,16 +420,16 @@ h1 {
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
-    color: black;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
 }
 .modal-dialog {
-    top:10%;
+    top:5%;
 }
 
 .modal-content {
-    background-color: slategray;
+    background-color: black;
+    color: #fafafa;
 }
 
 .progress {
@@ -445,6 +449,7 @@ h1 {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
+.about-me-modal,
 .progress-section {
     margin: 40px 20px;
 }
@@ -452,3 +457,4 @@ h1 {
 .project {
     margin-bottom: 30px;
 }
+
