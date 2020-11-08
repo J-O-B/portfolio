@@ -36,15 +36,12 @@ After researching full stack developer portfolios online (Google and YouTube), I
     2. [Content](#Content)
     3. [Acknowledgements](#Acknowledgements)
 
-## Description
+## **Description**
 This development is a personal portfolio page. The aim of this project is to convey my experience to a potential 
     recruiter. At this point in time, I have added two "placeholder" projects, which will be replaced by real projects
-    as I progress through the course at Code Institute. Ultimately I will add further features to this page in the 
-    future, such as pagination style feature for projects. 
+    as I progress through the course at Code Institute. This project is designed in such a way that the structure can easily be 
+    added to, or modified in the future for simplification of future updates.
     
-I have also added a basic contact me form which at this point in time does not work. A future update will enable
-    this feature using an API.
-
 ---------------
 ## **UX**
 Being a front end development, UX was extremely important. Easy access to information via easy to find 
@@ -130,7 +127,7 @@ also contained within the logo.
 Logos are placed in multiple locations on this page. They are all supplied via FontAwesome CDN.
 
 --------------------
-## Features
+## **Features**
 
 ### <ins>**_Existing Features_**</ins>
 
@@ -145,63 +142,88 @@ In future this portfolio will include a working form. I will also update the pro
 future projects and showcase them.
     
 ------------------
-## Technologies Used
-    For this project HTML & CSS were used, as well as Bootstrap and jQuery via CDN.
+## **Technologies Used**
+For this project HTML & CSS were used, as well as Bootstrap and jQuery via CDN.
 
 ---------------------
-## Testing
+## **Testing**
 To test this project I first used [W3C_validator](https://validator.w3.org/) to check all HTML, I then checked all of the CSS via the [W3C_Validation](https://jigsaw.w3.org/css-validator/).
 
+Adding to these tests, I used dev tools in my browser (Chrome) to see specific areas that I wanted to change. As this project is a front end project, the majority of my testing 
+was that of design and the use of dev tools to achieve this.
+
 Once these resources confirmed no errors in the code of the project, I then used "lighthouse" in the Google Chrome
-dev tools to ensure compliance across all categories.
+dev tools to ensure compliance across all categories. 
 
 ![Lighthouse Test](assets/readme/lighthouse.jpg)
 
+Performance:
+> To boost my performance score, I have changed all my images to .jpg format, as well as lowered their size, but not to a point that changed their overall quality. This
+is why my performance score is 83 and not higher. I was not willing to lower the quality of the design element of my page to improve this score.
+
+Accessibility:
+> To achieve this score I have added ALT text to all images, as well as 'screen reader only' notes where needed.
+
+Best Practices:
+> Unfortunately this section seemed to pick up that my logo should have been bigger, even though my logo is sized specific to this project and is therefore displayed at
+100%. Once again, I chose that the design feature of having my logo was more important than raising this section to 100%.
+
+SEO:
+> Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon and other basic SEO principles.
+
 --------------------
-## Deployment
-### <ins>**_Local Deployment_**</ins>
+## **Deployment**
+### <ins>**_Local Deployment:_**</ins>
 To deploy this project on your local system, you can follow these steps:
 
-1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
-2. Above the files there is a button with a download symbol and the text "Code"
-3. Once you click the button "Code" you will have an option to "Download ZIP"
-4. Download the ZIP file and extract the folder on your local computer.
-5. Open the index.html to deploy this website locally.
+> 1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
+>2. Above the files there is a button with a download symbol and the text "Code"
+>3. Once you click the button "Code" you will have an option to "Download ZIP"
+>4. Download the ZIP file and extract the folder on your local computer.
+>5. Open the index.html to deploy this website locally.
 
 **Please note that all files and folders must be kept in their original locations (folders) for page links (to internal resources such as images) to work. External links to social media etc. will work regardless.**
 
     
-### <ins>**_Remote Deployment_**</ins>
+### <ins>**_Remote Deployment:_**</ins>
 To deploy this project remotely, you can follow these steps:
-1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
-2. Close to the top of the page there is a navigation bar, the first item here is "<>Code", the last item is "Settings".
-3. Click on settings
-4. Scroll down the page until you find the section labelled "GitHub Pages"
-5. The first item in GitHub Pages is "Source", click the associated dropdown button labelled "None". 
-6. You will now have to select "master" as the source.
-7. Once you have selected "master" click the "Save" button. 
-8. The page should now refresh so you may have to scroll back down to "GitHub Pages".
-9. Now you will see a link presented which should look like this https://j-o-b.github.io/portfolio/.
+>1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
+>2. Close to the top of the page there is a navigation bar, the first item here is "<>Code", the last item is "Settings".
+>3. Click on settings
+>4. Scroll down the page until you find the section labelled "GitHub Pages"
+>5. The first item in GitHub Pages is "Source", click the associated dropdown button labelled "None". 
+>6. You will now have to select "master" as the source.
+>7. Once you have selected "master" click the "Save" button. 
+>8. The page should now refresh so you may have to scroll back down to "GitHub Pages".
+>9. Now you will see a link presented which should look like this https://j-o-b.github.io/portfolio/.
 ----------------------
-## Credits
+## **Credits**
 Although most of the content and code in this project is my own, I have also used code snippets from bootstrap, 
     for example the modal popup is the standard bootstrap modal which was then changed to the specifications I wanted.
     
-* The narbar is based on the same navbar which was used in Whiskey Drop.
-* The footer layout is based on the footer section used in the Resume tutorial.
-* The modal feature is based on a code snipped from [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/components/modal/).
-* The "feature" section of my CSS is original yet based on a tutorial from W3Schools.com
+>* The narbar is based on the same navbar which was used in Whiskey Drop.
+>* The footer layout is based on the footer section used in the Resume tutorial.
+>* The modal feature is based on a code snipped from [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/components/modal/).
+>* The "feature" section of my CSS is original yet based on a tutorial from W3Schools.com
     
 
-### <ins>**_Media_**</ins>
-Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
-
-Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
-
-Logo Image - [WIX](https://www.wix.com/logo/maker)
-### <ins>**_Content_**</ins>
+### <ins>**_Media:_**</ins>
+>Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>Full Stack Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>Content Writing Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>SEO Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
+>Logo - [WIX Logo Maker](https://www.wix.com/logo/maker)
+### <ins>**_Content:_**</ins>
 All of the text content in this project is original content. See above for image credits & acknowledgements.
 
-### <ins>**_Acknowledgements_**</ins>
-I would like to acknowledge both my mentor Caleb Mbakwe for his tips during this project. I would also like to thank 
-Matt Rudge for his tutorial on Bootstrap, which this project is dependent on.
+### <ins>**_Acknowledgements:_**</ins>
+I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips during this project. I would also like to thank 
+<ins>Matt Rudge</ins> for his tutorial on Bootstrap, which this project is dependent on.
