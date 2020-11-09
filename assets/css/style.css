@@ -47,7 +47,7 @@ h1 {
 @media only screen and (min-width:1350px){
 .social-bar {
     position: fixed;
-    top: 30%;
+    top: 35%;
     list-style-type: none;
 }
 .social-bar i{
@@ -97,7 +97,7 @@ h1 {
 }
 
 .welcome-container {
-    height: 100vh;
+    height: 90vh;
     top:15%;
     display: flex;
     align-items: center;
@@ -244,8 +244,8 @@ h1 {
 .work-nav:hover{
     background: rgba(15, 51, 194, 0.8);
 }
-.cv-button a{
-    margin-right:100px;
+.coding-button{
+    margin-right:50px;
 }
 
 /* CV Download button will display in different locations depending on user device */
@@ -376,17 +376,18 @@ h1 {
 }
 /*-------------------------------------------- Jumbotron Headings ---------------------------------------------*/
 .jumbotron {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius:30%;
 }
 
 .jumbotron h1 {
-    color: white;
+    color: #fafafa;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
-    color: white;
+    color: #fafafa;
     margin: 25px 0;
     font-size: 150%;
 }
