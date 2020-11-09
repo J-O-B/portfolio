@@ -137,10 +137,10 @@ h1 {
 .products,
 .contact,
 .work {
-    background: linear-gradient(90deg, rgba(0,0,0,0),rgba(0, 21, 107, 0.6),rgba(0,0,0,0));
+    background: linear-gradient(90deg, rgba(0,0,0,0)5%,rgba(0, 0, 0, 0.9)10%,rgba(0, 0, 0, 0.9)90%,rgba(0,0,0,0)95%);
     border-radius: 25px;
     text-align: center;
-    color: white;
+    color: #fafafa;
 }
 
 .products {
@@ -276,6 +276,11 @@ h1 {
     font-size:150%;
     color:#fafafa;
 }
+.social-icon a{
+  color:#fafafa;
+  text-decoration: none;
+  font-size:x-large;
+}
 @media only screen and (max-width:375px){
 #about img{
     max-width:100%;
@@ -298,9 +303,6 @@ h1 {
 .feature{
     margin-top:20px;
     font-size: larger;
-    background: rgba(0,0,0,0.8);
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
 }
 /* ------------------------------------------Work With Me (contact) ----------------------------------- */
 .contact-img{
@@ -424,7 +426,7 @@ h1 {
     .social-icon {
         -webkit-transform: perspective(1px) translateZ(0);
         transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 1px rgba(240, 95, 64, 0.5);
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
         -webkit-transition-property: box-shadow, transform;
@@ -450,7 +452,7 @@ h1 {
 .project-container,
 .product-container,
 .work-container {
-    background: rgba(0, 0, 0, 0.1);
+    background: transparent;
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
@@ -461,7 +463,12 @@ h1 {
 .project-container:hover,
 .product-container:hover,
 .work-container:hover {
-    background: rgba(240, 95, 64, 0.2);
+    background: rgba(0, 21, 107, 0.2);
+}
+/*entry animation from Animista (keyframes in keyframe section)*/
+.slide-in-blurred-left {
+	-webkit-animation: slide-in-blurred-left 4s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
+	        animation: slide-in-blurred-left 4s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {
@@ -502,4 +509,92 @@ h1 {
 .project {
     margin-bottom: 30px;
 }
+/*code from Code Institute Resume*/
+.history-items{
+    margin-bottom:0px;
+}
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:#fafafa;
+    border-left: 1px solid;
+}
 
+.timeline-item:hover h4{
+    transform: rotate(3deg);
+}
+
+.timeline-item p{
+   padding:0;
+   margin:0; 
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position:absolute;
+    left:2.5em;
+    top:3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding:0;
+    margin:0;
+}
+
+.timeline-item:after{
+    width:12px;
+    height:12px;
+    display:block;
+    top:3.4em;
+    position: absolute;
+    left:-6px;
+    border-radius: 50%;
+    content: '';
+    background: #fafafa;
+}
+.html-value:hover{
+    width:90%;
+}
+
+/* Keyframes (animista.net) */
+-webkit-keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+            transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+            transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
