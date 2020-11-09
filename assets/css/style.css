@@ -16,7 +16,6 @@ body {
     color: slategray;
     text-decoration: none;
 }
-
 .background-wrap {
     background: url('../images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -98,11 +97,12 @@ h1 {
 
 .welcome-container {
     height: 90vh;
-    top:15%;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 .section-container {
@@ -137,7 +137,7 @@ h1 {
 .products,
 .contact,
 .work {
-    background: radial-gradient(rgba(240, 95, 64, 0.9), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(90deg, rgba(0,0,0,0),rgba(0, 21, 107, 0.6),rgba(0,0,0,0));
     border-radius: 25px;
     text-align: center;
     color: white;
@@ -194,7 +194,7 @@ h1 {
     padding:0;
     border: 0;
     height: 105px;
-    background-color: rgba(30, 31, 35, 1);
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar .navbar-toggler {
@@ -208,7 +208,7 @@ h1 {
 }
 
 .navbar-collapse{
-    background:rgba(30, 31, 35, 1);
+    background:rgba(0, 0, 0, 1);
 }
 
 .navbar .navbar-nav a {
@@ -226,23 +226,13 @@ h1 {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-.home-nav:hover{
-    background: rgba(240, 95, 64, 0.8);
-}
-.contact-nav:hover{
-    background:rgba(15, 51, 194, 0.8);
-}
-.about-nav:hover{
-    background: rgba(223, 25, 25, 0.8);
-}
-.project-nav:hover{
-    background: rgba(119, 9, 192, 0.8);
-}
-.what-do-i-offer-nav:hover{
-    background: rgba(241, 102, 8, 0.8);
-}
+.home-nav:hover,
+.contact-nav:hover,
+.about-nav:hover,
+.project-nav:hover,
+.what-do-i-offer-nav:hover,
 .work-nav:hover{
-    background: rgba(15, 51, 194, 0.8);
+    background: rgba(0, 21, 107, 0.8);
 }
 .coding-button{
     margin-right:50px;
@@ -262,6 +252,11 @@ h1 {
 /* --------------------------------------------Welcome area---------------------------------------- */
 .profile {
     border-radius: 50%;
+}
+.welcome-callout{
+    margin-top: 35%;
+    height:85vh;
+    width: 90vw;
 }
 
 .description{
@@ -302,6 +297,10 @@ h1 {
 
 .feature{
     margin-top:20px;
+    font-size: larger;
+    background: rgba(0,0,0,0.8);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
 }
 /* ------------------------------------------Work With Me (contact) ----------------------------------- */
 .contact-img{
@@ -376,14 +375,16 @@ h1 {
 }
 /*-------------------------------------------- Jumbotron Headings ---------------------------------------------*/
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius:30%;
 }
 
 .jumbotron h1 {
     color: #fafafa;
     font-weight: bold;
+    text-align:center;
     margin-bottom: 30px;
+    letter-spacing: 15px;
 }
 
 .jumbotron .lead {
@@ -444,30 +445,23 @@ h1 {
         transform: scale(1.1);
     }
 }
-
 /* hover linear gradient */
 .about-container,
 .project-container,
 .product-container,
 .work-container {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
     -o-transition: all 3s ease-in-out;
 }
 
-.about-container:hover{
-    background: rgba(223, 25, 25, 0.3);
-}
-.project-container:hover{
-    background:  rgba(119, 9, 192, 0.3);
-}
-.product-container:hover{
-    background: rgba(241, 102, 8, 0.3);
-}
+.about-container:hover,
+.project-container:hover,
+.product-container:hover,
 .work-container:hover {
-    background: rgba(15, 51, 194, 0.3);
+    background: rgba(240, 95, 64, 0.2);
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
 .modal {

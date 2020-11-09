@@ -59,8 +59,8 @@
         <!--Welcome Callout-->
         <section class="container-fluid welcome-container">
             <div class="row">
-                <div class="col-12">
-                    <div class="callout jumbotron text-center">
+                <div class="col-12 welcome-callout">
+                    <div class="jumbotron text-center">
                         <h1 class="jumbotron-header">John O'Brien</h1>
                         <hr class="block-divider block-divider--orange">
                         <p class="lead">Full Stack Developer <br> Graphic Design & SEO</p>
@@ -193,33 +193,45 @@
                         <div class="feature">
                             <h3>Full Stack Development</h3>
                             <img class="product-image" src="assets/images/full-stack.jpg" alt="full stack development image">
-                            <p>If you are in need of a full stack developer, a front end developer, or a back end developer<br> contact me to see how I can help!</p>
-                            <hr class="block-divider block-divider--short">
-                        </div>
+                            <p>
+                                Full Stack Development is a key role in any organization. Click read more to see how I can help!<br>
+                            </p>
+                            </div>
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#fullStack">Read More...</button>
+                        <hr class="block-divider block-divider--short">
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="feature">
                             <h3>Graphic Design</h3>
                             <img class="product-image" src="assets/images/graphic-design.jpg" alt="graphic design image">
-                            <p>Need a logo, banners or general graphics for your website or blog post? <br>I can design and generate custom, personalized graphics.<br>Contact me for more information.</p>
-                            <hr class="block-divider block-divider--short">
+                            <p>
+                                Graphics are a great way to make your website more appealing. Click read more to see how I can help! <br>
+                            </p>
                         </div>
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#graphics">Read More...</button>
+                        <hr class="block-divider block-divider--short">
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="feature">
                             <h3>Content Writing</h3>
                             <img class="product-image" src="assets/images/content-writing.jpg" alt="content writing image">                            
-                            <p>Content is king! To help rank your website on search engines such as Google, keyword rich 'density specific' content is one of the most important aspects of your website. <br> Should you wish to review, or create content for your website or blog<br>contact me to see how I can help!</p>
-                            <hr class="block-divider block-divider--short">
+                            <p>
+                                Content is king! Keyword rich content can help you rank well on search engines. Click read more to see how I can help!<br>
+                            </p>
                         </div>
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#contentWriting">Read More...</button>
+                        <hr class="block-divider block-divider--short">
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="feature">
                             <h3>SEO</h3>
                             <img class="product-image" src="assets/images/SEO.jpg" alt="search engine optimization (seo) image"> 
-                            <p>Getting your website highly ranked on Google is key to success for any online business. I offer advisory SEO techniques to help you get discovered.<br>Contact me for more information.</p>
-                            <hr class="block-divider block-divider--short">
+                            <p>
+                                Getting noticed online can be difficult, but is important for an online business. Click read more to see how I can help!<br>
+                            </p>
                         </div>
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#SEO">Read More...</button>
+                        <hr class="block-divider block-divider--short">
                     </div>
                 </div>
             </div>
@@ -325,8 +337,8 @@
             </div>
         </footer>    
         <!--/.Footer-->
-        <!--Popup Using Modal-->
-            <!--Experience Modal-->
+    <!--Popups Using Modal-->
+        <!--Experience Modal-->
         <div class="modal" tabindex="-1" role="dialog" id="experienceModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -405,7 +417,142 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Full Stack Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="fullStack">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Full Stack Development:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <p>  
+                                    As a full stack developer I deal with both the front and back end development processes. This means that as an employer
+                                    you will get the best of both worlds. <br>
+                                    <span><h5>Why is this?</h5></span><br>
+                                    This is down to the fact that as a full stack developer, I can perform the functions of a front end developer, creating a visually
+                                    appealing website. Adding to this I can also look after the back end of development, implementing Python and SQL. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Graphics Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="graphics">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Graphic Design:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <p>  
+                                    If you are looking for a new website logo, banners, or general graphics for your website, then I may be able
+                                    to help!
+                                    <br><br>
+                                    Having years of experience using photoshop for both company logos, as well as banners and general graphics,
+                                    I am capable of designing and creating graphics, or I can turn your ideas into reality. 
+                                    <br><br>
+                                    For more information
+                                    on graphic design, feel free to contact me via the contact form located at the bottom of the page.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Content Writing Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="contentWriting">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Content Writing:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <p>  
+                                    While search engines use a variety of factors to rank a website or webpage, the content (including articles & blog posts)
+                                    on your website is crawled by search engines to 'rank' that content. As this method is fully automatic and performed by AI, it is 
+                                    important to have content that is both meaningful yet keyword rich.
+                                    <br><br>
+                                    Keywords are terms that Google and other search engines use to 'rank' a website by evaluating it's contents and how useful
+                                    your webpage may be to a user. The better and more appealing your content is, the higher rank your content will achieve. This means that
+                                    your content will likely appear higher in search results, which may translate into more website traffic. 
+                                    <br><br>
+                                    In basic terms, the better your content is the better you will rank.
+                                    <br><br>
+                                    This however is easier said than done. As the 'person' reading your content is essentially a computer, it is important
+                                    to keep keyword densities, paragraph lenghts and other features within a standard which is awarded by search engines.
+                                    <br><br>
+                                    The challenge of SEO writing is to balance the content to help search engines rank it, while also remaining interesting 
+                                    and appealing to the reader.
+                                    <br><br>
+                                    If you would like to know more on how I might be able to help you with your SEO content writing, please contact me using
+                                    the form at the bottom of the page. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SEO Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="SEO">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">SEO:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <p>  
+                                    The function of an SEO is to improve your search engine rankings. Hence the name Search Engine Optimization.
+                                    <br><br>
+                                    Fully implementing an SEO strategy takes a lot of time and effort. This time and effort however can pay dividends
+                                    to a company or any online business as it will ultimately lead to a larger volume of visitors to your website. In turn
+                                    the more visitors you have, the higher your earning potential can be via affiliate marketing or using services such as
+                                    Google Adsense.
+                                    <br><br>
+                                    If you would like to increase your website traffic but are unsure how to achieve this, send me a message and see how I 
+                                    may help your business expand.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
