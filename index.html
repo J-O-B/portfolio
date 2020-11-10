@@ -77,10 +77,14 @@
                 <div class="row">
                     <div class="col-12 page-header" id="about">
                         <h2 class="text-uppercase">About Me</h2>
+                        <hr class="block-divider block-divider--orange">
+                    </div>
+                    <div class="col-12 col-md-6">
                         <img src="assets/images/me.jpg" alt="Photo of John O'Brien" class="profile feature">
                         <span class="sr-only">Picture of John O'Brien</span>
-                        <hr class="block-divider block-divider--orange">
-                        <p>
+                    </div>
+                    <div class="col-12 col-md-6">   
+                        <p class="about-me-text">
                             Hi, I'm John O'Brien. I'm a full-stack development student with Code Institute based out of Dublin, Ireland.
                             <br><br>
                             I have 10 years of experience in the aviaton sector and 3 years experience in web development (WordPress & SEO). <br>I have recently
@@ -89,20 +93,7 @@
                         <p>
                             <cite>- John O'Brien</cite><br>
                         </p>
-                        <!--Audio player code from https://developer.mozilla.org/ includes script at bottom of code-->
-                        <div class="player">
-                            <audio controls>
-                                <source src="assets/audio/about-me.mp3" type="audio/mp3">
-                                <p>Your browser doesn't support HTML5 audio. Here is a <a href="assets/audio/about-me.mp3" target="_blank">link to the audio</a> instead.</p>
-                            </audio>
-                            <div class="controls">
-                                <button class="btn btn--cta btn--red playpause" aria-hidden="true">Play</button>
-                                <button class="btn btn--cta btn--red stop" aria-hidden="true">Stop</button>
-                                <div class="time">00:00</div>
-                            </div>
-                        </div>
-                        <!--end of audio section-->
-                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#aboutMeModal">Read More...  <i class="fas fa-info-circle"></i></button>
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#aboutMeModal"><i class="fas fa-info-circle"></i> Read More...</button>
                     </div>
                 </div>
                 <!--social media links-->
@@ -117,7 +108,7 @@
                             <a href="https://www.linkedin.com/in/jonathan-o-brien/" rel="noreferrer" target="_blank">LinkedIn</a></p>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </section>
         <!--/.About Me-->
@@ -422,7 +413,20 @@
                     <div class="modal-body">
                         <div class="row about-me-modal">
                             <div class="col">
-                                <p>  
+                            <!--Audio player code from https://developer.mozilla.org/ includes script at bottom of code-->
+                                <div class="player">
+                                    <audio controls>
+                                        <source src="assets/audio/about-me.mp3" type="audio/mp3">
+                                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="assets/audio/about-me.mp3" target="_blank">link to the audio</a> instead.</p>
+                                    </audio>
+                                    <div class="controls">
+                                        <button class="btn btn--cta btn--red playpause" aria-hidden="true" aria-label="play or pause audio">Play</button>
+                                        <button class="btn btn--cta btn--red stop" aria-hidden="true" aria-label="stop audio">Stop</button>
+                                        <div><p class="time">00:00 <span>/ 01:36</span></div>
+                                    </div>
+                                </div>
+                        <!--end of audio section-->
+                                <p><br><br>  
                                     With a 10 year history as an aviation professional, working as part of a team is one of my strengths. I am also outgoing, dedicated and open-minded.
                                     Being used to working in a team, I work well with others and adjust well to changes. The key to success in my professional life
                                     so far, is that I strongly believe I have never stopped learning and will always be motivated to learn new skills and expand my 
@@ -714,7 +718,7 @@
             }
 
             mediaTime = minuteValue + ":" + secondValue;
-            timeLabel.textContent = mediaTime;
+            timeLabel.textContent = mediaTime + " / 1:36";
             };
 
     </script>
