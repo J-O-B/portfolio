@@ -125,6 +125,7 @@ img{
 }
 
 .about,
+.skills,
 .projects,
 .products,
 .contact,
@@ -135,6 +136,7 @@ img{
 
 /*------------------------------------ Card Containers-------------------------------------*/
 .about,
+.skills,
 .projects,
 .products,
 .contact,
@@ -293,6 +295,14 @@ img{
 }
 #about img{
     max-width:100%;
+}
+/* -------------------------------------------Skills area ---------------------------------------- */
+.skill img{
+    border-radius:5%;
+    height:50%;
+}
+.skill p{
+    font-size:smaller;
 }
 
 /* -------------------------------------------Projects area ---------------------------------------- */
@@ -461,6 +471,7 @@ img{
 }
 /* hover linear gradient */
 .about-container,
+.skill-container,
 .project-container,
 .product-container,
 .work-container {
@@ -472,6 +483,7 @@ img{
 }
 
 .about-container:hover,
+.skills-container:hover,
 .project-container:hover,
 .product-container:hover,
 .work-container:hover {
