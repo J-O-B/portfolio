@@ -25,7 +25,7 @@
                 <div class="row d-none d-sm-block">
                     <div class="col-12">
                         <div class="site-wide-alert alert alert-warning">
-                            <strong>Name:</strong><em> John O'Brien</em> | <strong>Email:</strong> <em>JonathanMichaelOBrien@Gmail.com</em> | <strong>Time Zone:</strong> <em>GMT</em></a>
+                            <strong>Name:</strong><em> John O'Brien</em> | <strong>Email:</strong> <em>JonathanMichaelOBrien@Gmail.com</em> | <strong>Time Zone:</strong> <em>GMT</em>
                         </div>
                     </div>
                 </div>
@@ -88,8 +88,21 @@
                         </p>
                         <p>
                             <cite>- John O'Brien</cite><br>
-                            <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#aboutMeModal">Read More...  <i class="fas fa-info-circle"></i></button>
                         </p>
+                        <!--Audio player code from https://developer.mozilla.org/ includes script at bottom of code-->
+                        <div class="player">
+                            <audio controls>
+                                <source src="assets/audio/about-me.mp3" type="audio/mp3">
+                                <p>Your browser doesn't support HTML5 audio. Here is a <a href="assets/audio/about-me.mp3" target="_blank">link to the audio</a> instead.</p>
+                            </audio>
+                            <div class="controls">
+                                <button class="btn btn--cta btn--red playpause" aria-hidden="true">Play</button>
+                                <button class="btn btn--cta btn--red stop" aria-hidden="true">Stop</button>
+                                <div class="time">00:00</div>
+                            </div>
+                        </div>
+                        <!--end of audio section-->
+                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#aboutMeModal">Read More...  <i class="fas fa-info-circle"></i></button>
                     </div>
                 </div>
                 <!--social media links-->
@@ -282,9 +295,7 @@
                                         </div>
                                     </form>
                                 </div>    
-                            </div>
-                        </form>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -308,7 +319,7 @@
                             <span class="sr-only">Download Link</span>
                         </p>
                         <p> 
-                            <em>Copyright John O'Brien</em>
+                            <em>Copyright Jonathan O'Brien</em>
                         </p>
                     </div>
                     <div class="col-sm">
@@ -445,14 +456,15 @@
                             <div class="col">
                                 <p>  
                                     As a full stack developer I deal with both the front and back end development processes. This means that as an employer
-                                    you will get the best of both worlds. <br>
-                                    <span><h5>Why is this?</h5></span><br>
+                                    you will get the best of both worlds.
+                                </p>
+                                <h5>Why is this?</h5>
+                                <p>
                                     This is down to the fact that as a full stack developer, I can perform the functions of a front end developer, creating a visually
                                     appealing website. Adding to this I can also look after the back end of development, implementing Python and SQL. 
-                                    <br><br>
-                                    <h4><em>My Experience So Far:</em></h4>
                                 </p>
-                                <p><div class="history-items">
+                                <h4><em>My Experience So Far:</em></h4>
+                                <div class="history-items">
                                     <div class="timeline-item" data-dates="06/1996 - Present">
                                             <h4>HTML</h4>
                                             <div class="progress">
@@ -663,6 +675,48 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--Script from Mozilla Developer (accessibility buttons for keyboard users)-->
+    <script>const playPauseBtn = document.querySelector('.playpause');
+            const stopBtn = document.querySelector('.stop');
+            const timeLabel = document.querySelector('.time');
+            const player = document.querySelector('audio');
 
+            playPauseBtn.onclick = function() {
+                if(player.paused) {
+                    player.play();
+                    playPauseBtn.textContent = 'Pause';
+                } else {
+                    player.pause();
+                    playPauseBtn.textContent = 'Play';
+                }
+                };
+
+            stopBtn.onclick = function() {
+            player.pause();
+            player.currentTime = 0;
+            playPauseBtn.textContent = 'Play';
+            };
+            
+            player.ontimeupdate = function() {
+            let minutes = Math.floor(player.currentTime / 60);
+            let seconds = Math.floor(player.currentTime - minutes * 60);
+            let minuteValue;
+            let secondValue;
+            if (minutes<10) {
+                minuteValue = "0" + minutes;
+            } else {
+                minuteValue = minutes;
+            }
+            if (seconds<10) {
+                secondValue = "0" + seconds;
+            } else {
+                secondValue = seconds;
+            }
+
+            mediaTime = minuteValue + ":" + secondValue;
+            timeLabel.textContent = mediaTime;
+            };
+
+    </script>
 </body>
 </html>
