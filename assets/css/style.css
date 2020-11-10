@@ -298,14 +298,17 @@ img{
     max-width:100%;
 }
 /* -------------------------------------------Skills area ---------------------------------------- */
-.skill img{
-    border-radius:5%;
-    height:50%;
+.carousel{
+    width:100%;
 }
-.skill p{
-    font-size:smaller;
+.carousel img{
+    height:230px;
+    border-radius: 5%
 }
-
+.caption{
+    width:80%;
+    margin: 0 auto;
+}
 /* -------------------------------------------Projects area ---------------------------------------- */
 .rounded-image{
     border-radius:50%;

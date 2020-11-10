@@ -114,50 +114,60 @@
         <!--Skills-->
         <section class="skill-container section-container">
                 <div class="container skills">
-                    <div class="row">
-                        <div class="col-12 page-header" id="skills">
+                    <div class="row" id="skills">
+                        <div class="col-12 page-header">
                             <h2 class="text-uppercase">My Skills:</h2>
                             <p>
-                                Below are a list of the current languages I know. If you would like further information about any of these, please contact me.
+                                Below are a list of the languages I currently know. If you would like further information about any of these, please contact me.
                             </p>
                             <hr class="block-divider block-divider--orange">
                         </div>
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/java.jpg" alt="Java">
-                            <h5><em>Java</em></h5>
-                            <p>I can create software that can operate throughout a business, for example a store that keeps track of stock etc. Although my use of this language is now minimal.</p>
-                        </div>
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/html.jpg" alt="HTML 5">
-                            <h5><em>HTML 5</em></h5>
-                            <p>I use HTML 5 to develop the architecture of a webpage, add content and form the foundations of any interface between the user and a business.</p>
-                        </div>
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/css.jpg" alt="CSS 3">
-                            <h5><em>CSS 3</em></h5>
-                            <p>As a HTML document without CSS is just text and links, I use CSS to design and add a custom layout and feel to every project I work on. This can be as basic or advanced as you wish.</p>
-                        </div>
-                    <div class="row">
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/javascript.jpg" alt="JavaScript">
-                            <h5><em>JavaScript</em></h5>
-                            <p>With JavaScript being capable of dealing with data in motion as well as provide website functionality, I use JavaScript to enhance user experience amongst other tasks.</p>
-                        </div>
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/python.jpg" alt="Python">
-                            <h5><em>Python</em></h5>
-                            <p>Python is a very useful language to deal with data in motion. I use this language as the intermediary between back end databases and the front end development (user interface).</p>
-                        </div>
-                        <div class="col-sm feature skill">
-                            <img src="assets/images/sql.jpg" alt="SQL">
-                            <h5><em>SQL</em></h5>
-                            <p>SQL is a back end language which allows me to deal with data held within a database. This allows me to create projects that allow the storage of user data (such as a user profile).</p>
-                        </div>
+                        <!--carousel initially taken from Bootstrap before editing-->
+                        <div id="skillCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/images/java.jpg" alt="Java">
+                                    <h5><em>Java</em></h5>
+                                    <p class="caption">I can create software that can operate throughout a business, for example a store that keeps track of stock etc. Although my use of this language is now minimal.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/html.jpg" alt="HTML 5">
+                                    <h5><em>HTML 5</em></h5>
+                                    <p class="caption">I use HTML 5 to develop the architecture of a webpage, add content and form the foundations of any interface between the user and a business.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/css.jpg" alt="CSS 3">
+                                    <h5><em>CSS 3</em></h5>
+                                    <p class="caption">As a HTML document without CSS is just text and links, I use CSS to design and add a custom layout and feel to every project I work on. This can be as basic or advanced as you wish.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/javascript.jpg" alt="JavaScript">
+                                    <h5><em>JavaScript</em></h5>
+                                    <p class="caption">With JavaScript being capable of dealing with data in motion as well as provide website functionality, I use JavaScript to enhance user experience amongst other tasks.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/python.jpg" alt="Python">
+                                    <h5><em>Python</em></h5>
+                                    <p class="caption">Python is a very useful language to deal with data in motion. I use this language as the intermediary between back end databases and the front end development (user interface).</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/sql.jpg" alt="SQL">
+                                    <h5><em>SQL</em></h5>
+                                    <p class="caption">SQL is a back end language which allows me to deal with data held within a database. This allows me to create projects that allow the storage of user data (such as a user profile).</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#skillCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#skillCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
                     </div>
                 </div>
-            </div>
         </section>
-
         <!--/.Skills-->
         <!--Projects-->
         <section class="project-container section-container">
@@ -309,31 +319,29 @@
                     </div>
                     <div class="col-md-6">
                         <!--This form is my own code, but uses the action provided by FormSpree.io-->
-                                    <form id="contact-form" action="https://formspree.io/f/myybpgey" method="POST" data-email="JonathanMichaelOBrien@gmail.com" target="_blank">
-                                    
-                                        <div class="col-12 form-group">
-                                            <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                            <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                            <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message" required></textarea>
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <button type="submit" class="btn btn-raised btn-block btn-danger">Send Message →</button>
-                                            <p>
-                                                <strong>***Clicking Send Will Open A New "Confirmation Window"</strong><br>
-                                                *This form uses a 3rd party mail provider, therefore I cannot guarantee GDPR compliance**<br>
-                                                Should you wish to send me a message via email you can do so (JonathanMichaelOBrien@Gmail.Com)
-                                            <p>
-                                        </div>
-                                    </form>
-                                </div>    
-                    
+                            <form id="contact-form" action="https://formspree.io/f/myybpgey" method="POST" data-email="JonathanMichaelOBrien@gmail.com" target="_blank">
+                                <div class="col-12 form-group">
+                                    <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                    <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message" required></textarea>
+                                </div>
+                                <div class="col-12 form-group">
+                                    <button type="submit" class="btn btn-raised btn-block btn--red">Send Message →</button>
+                                    <p>
+                                        <strong>***Clicking Send Will Open A New "Confirmation Window"</strong><br>
+                                        *This form uses a 3rd party mail provider, therefore I cannot guarantee GDPR compliance**<br>
+                                        Should you wish to send me a message via email you can do so (JonathanMichaelOBrien@Gmail.Com)
+                                    </p>
+                                </div>
+                            </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -741,7 +749,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <!--Script from Mozilla Developer (accessibility buttons for keyboard users)-->
+    <!--Script from Mozilla Developer before being modified (accessibility buttons for keyboard users)-->
     <script>const playPauseBtn = document.querySelector('.playpause');
             const stopBtn = document.querySelector('.stop');
             const timeLabel = document.querySelector('.time');
