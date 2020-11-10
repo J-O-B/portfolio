@@ -46,13 +46,39 @@ This development is a personal portfolio page. The aim of this project is to con
 ## **UX**
 Being a front end development, UX was extremely important. Easy access to information via easy to find 
     links, as well as creating a relaxed, yet professional design was possibly the most important feature 
-    of this project. Below I will discuss more in detail about specific UX features and design elements which 
-    allowed me to achieve the design I wanted to create.
+    of this project. Using repetition in areas is one key aspect to this portfolio, I have implemented the same 
+    style and color button for all important "clickable" links.
+
+#### 5 Planes of UX:
+1. Strategy:
+>The reason for this project is to publish a portfolio page that potential recruiters can view my work, or where collaborators can contact me about a project. ([User Stories](#User-Stories) Below)
+
+2. Scope:
+
+Functional Requirements:
+>Provide the capability to contact me, as well as download a copy of my CV.
+
+Content Requirements:
+>Provide additional information which does not fit on a CV, such as a longer about me section and example areas "products" I can provide to a business, or project partner.
+
+3. Structure:
+> As it seems like the 'norm' for personal portfolio's is a single page layout. I do not want to overload a user with information, to stop this from happening I plan on using 
+> 'popup' style features such as "read more", this will give the user the power to view as much information as they would like to see. 
+>
+> I aim to structure this page so that it starting from the top of the page, a user can scroll through this portfolio like they are reading a book. Each section will add a small
+> ammount of 'new' information to them, and each section will have interactive features to engage the audience, such as popups, links, or downloads.
+
+4. Skeleton:
+> With the above steps in place, I have created wireframes for desktop, tablet & mobile device. (view them [here](#Wireframes))
+
+5. Surface:
+> Finally, the look of the page (being a portfolio) was high up on the level of importance. To achieve the look that I wanted, but in keeping with good UX, I have added "cards" 
+> for each section, this is a subtle design feature to show sections as individual "blocks", each "block" is independent from one another and tells it's own section of my "story".
 
 ### <ins>**_Logo_**</ins>
 As branding is such a huge part of sales and promotion, I wanted to create a simple, yet professional
-    looking logo. To keep this logo specific to this particular page the two forward slashes are the same color 
-    as the main theme color (R:240, G:95, B:64). 
+    looking logo. As I am open to freelance work, I believe that creating a brand around myself is quite important and
+    I will continue to work on building this over the coming months and years. 
 
 ### <ins>**_Wireframes_**</ins>
 You can view the wireframe designs [here](assets/readme/wireframe_design.pdf)
@@ -61,9 +87,6 @@ Alternatively you can navigate to the Assets folder, then open the Readme folder
     within this Readme file.
 
 ### <ins>**_User Stories_**</ins>
-Being **one of**, if not **the most** important features of development is understanding firstly _who_ the user is & then 
-_what_ the user wants. In this case the user is likely a recruiter, who is viewing this page looking for further information 
-about a potential job applicant. With that in mind I have added some relevent user stories below.
 
 Being a personal portfolio the following user stories specific to this project are:
 * **As a user I want to:** *Know who John is?*
@@ -91,24 +114,8 @@ From anywhere on this portfolio page, you can get to any information in no more 
 Each section of this project is responsive. All sections are contained within collapsable sections to allow a great user experience
 regardless of the platform they are using to access the page.
 
-Navbar:
-> The navbar area contains a logo, text links & a button on desktops. This becomes a logo and text links on tablet devices. 
-Finally this section further collapses into a logo and 'burger' menu icon for mobile devices with a dropdown menu for links.
-The button that is available on desktop only will reposition to display under the 'welcome' section on tablet & mobile.
-
-Sections:
-> Each section is designed so that the layouts will change depending on device width. This means that a section, such as "projects"
-will display as single blocks on mobile, where as on larger screens, the same projects will display in a '2 per line' style.
-
-Social Media Sidebar:
-> This section originally appeared on all devices, however after seeing how this displayed on smaller screens, I decided to exclude 
-this feature from smaller screens. This was acceptable in my opinion, as social media links are available in other locations too, so 
-this does not change the user experience in a detrimental way.
-
-Footer:
-> The footer is also fully responsive, showing in a similar fashion on both desktop and tablet. When a user is using a mobile device,
-the footer section will automatically switch to a 1 block per line format. This means that across all devices, information is easy to 
-view, and for touch screen users, links will be easy to select.
+Other responsive design features include the "repositioning" of buttons depending on user screen width. This was achieved by creating two 
+objects and using the "display:hidden" CSS to target specific screen widths and maintain a highly responsive design.
 
 ### <ins>**_Frameworks:_**</ins>
 
@@ -120,8 +127,11 @@ Adding to this project are the frameworks of both Bootstrap and jQuery. These fr
 For this project the main typography is Roboto, with a backup typography of Sans Serif.
 
 ### <ins>**_Colors_**</ins>
-The main color of this page is rgba(240, 95, 64), this color is used in repetition, it is included in every section of this page and is 
-also contained within the logo.
+The main colors of this page are RGB 240, 95, 64 as well as RGB 0, 21, 107.
+
+A subtle addition is the fact that all "action" buttons feature RGB 240,95,64, where as all information sections feature RGB 0,21,107.
+
+RGB 240,95,64 also features in the two forward slashes in the logo.
 
 ### <ins>**_Icons_**</ins>
 Logos are placed in multiple locations on this page. They are all supplied via FontAwesome CDN.
@@ -132,18 +142,24 @@ Logos are placed in multiple locations on this page. They are all supplied via F
 ### <ins>**_Existing Features_**</ins>
 
 Currently this project has several features incluing a modal popup, links to download my CV and a lot of 
-interactive features using css hover effects. 
+interactive features using css hover effects.
+
+The contact form is currently working thanks to a free website called [FormSpree](https://formspree.io/) which 
+has allowed me to create a basic HTML form, without the need for any additional JavaScript or PHP.
 
 I have also included features that are layered using Z-Index, this allowed me to include the back to top feature
 as well as the social media sidebar.
 
 ### <ins>**_Future Features_**</ins>
-In future this portfolio will include a working form. I will also update the projects section to include 
-future projects and showcase them.
+In future this portfolio will include more JavaScript, for example, the back to top button would be nicer if it was a scrolling motion 
+rather than a simple jump back to the top of the page. I also plan on updating the contact form to use an api rather than the current 
+feature which uses [FormSpree](https://formspree.io/) to handle the mail.
     
 ------------------
 ## **Technologies Used**
 For this project HTML & CSS were used, as well as Bootstrap and jQuery via CDN.
+
+The form on this portfolio page also uses a 3rd party email provider to deliver emails to my Gmail account.
 
 ---------------------
 ## **Testing**
