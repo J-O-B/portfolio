@@ -9,6 +9,7 @@
 8 - Buttons
 9 - Animation Section
 10 - Modal Specific
+11 - Keyframes
 */
 /*----------------------------------------General CSS -----------------------------------------*/
 body {
@@ -286,10 +287,10 @@ img{
   font-size:x-large;
 }
 .about-me-text{
-    text-align: left;
+    text-align: center;
     width:80%;
+    margin:25px 25px 25px 25px;
 }
-
 #about img{
     max-width:100%;
 }
@@ -524,7 +525,7 @@ audio{
 .project {
     margin-bottom: 30px;
 }
-/*code from Code Institute Resume*/
+/* "Timeline" from Code Institute Resume*/
 .history-items{
     margin-bottom:0px;
 }
@@ -567,9 +568,6 @@ audio{
     border-radius: 50%;
     content: '';
     background: #fafafa;
-}
-.html-value:hover{
-    width:90%;
 }
 
 /* Keyframes (animista.net) */
