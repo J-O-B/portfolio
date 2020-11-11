@@ -10,7 +10,7 @@ Welcome to my first milestone project! For this project, I chose to create a per
 After researching full stack developer portfolios online (Google and YouTube), I noticed almost all developers implement a single page design. 
 I like this design and chose to follow what seems to be the "norm" in this category.
 
-This project on-top of being a milestone project also serves as a real world project. I recently purchased a domain, which I will host 
+This project on-top of being a milestone project also serves as a real-world project. I recently purchased a domain, which I will host 
 this project on, however, I will wait to deploy this project on such a live environment until a later date where I may restrict access to 
 items such as my CV. 
 
@@ -43,23 +43,22 @@ items such as my CV.
 ## **Description**
 This development is a personal portfolio page. This project aims to convey my experience to a potential recruiter. Displaying 5 key sections: About Me, Skills, Projects, What I Offer & a Contact Form.
 
-The aim of this project is to show supporting documentation which does not fit on a basic CV, instead this project aims to accompany my CV where a potential recruiter, or collaborator,
-can view my experience, skills, projects, what I can add to a team and ultimately contact me, or download/view my CV.
+This project aims to show supporting documentation which does not fit on a basic CV, instead, this project aims to accompany my CV where a potential recruiter, or collaborator,
+can view my experience, skills, projects, what I can add to a team, and ultimately contact me, or download/view my CV.
 
 This project is designed in such a way that the structure can easily be added to, or modified in the future for simplification of future updates. At this point, this project uses mainly HTML 
-and CSS with Bootstrapand jQuery (via CDN) as well as a minimal amount of JavaScript (for sound file accessibility*). In the future, this project will bring in more JavaScript functionality 
-such as a "tag cloud" for projects, I could incorporate this feature now, but I chose only to use features I understand completely.
+and CSS with Bootstrap and jQuery (via CDN) as well as a minimal amount of JavaScript (for sound file *accessibility*). In the future, this project will bring in more JavaScript functionality such as a "tag cloud" for projects, I could incorporate this feature now, but I chose only to use features I understand completely.
 
-*Accessibility** of sound file uses JavaScript to enable users who cannot use a mouse play/pause and stop the sound file.  
+*Accessibility* of the sound file uses JavaScript to enable users who cannot use a mouse play/pause and stop the sound file.  
 
 ---------------
 ## **UX**
 Being a front end development, UX was extremely important. Easy access to information via easy to find links, as well as creating a relaxed, yet professional design was possibly the most important feature of this project. Using specific repetition in areas is one key aspect of this portfolio, 
-for example I have implemented the same style and color button for all-important "clickable" links, all individual sections are 'highlighted' by using a darker background, this makes sections raise up from the background and also 
+for example, I have implemented the same style and color button for all-important "clickable" links, all individual sections are 'highlighted' by using a darker background, this makes sections raise up from the background and also 
 allows for easy reading of the page content. After building this page, I got friends and family to browse the page (without telling them about any features), one item that was highlighted was the images 
 in the "What I Offer" page, as a result of this live test, I have made these images clickable which also opens the relevant modal popup.
 
-On loading this page, in the center of the screen is the welcome area showing Who I Am, What I Do & Why I'm Here (Name, What I Do & My CV).
+On loading, this page, in the center of the screen is the welcome area showing Who I Am, What I Do & Why I'm Here (Name, What I Do & My CV).
 In the same order as the above "Who, What, Why", as a user scrolls they will see:
 
 1. **Who I am** - An introduction to myself - *"About Me" section,* 
@@ -77,7 +76,7 @@ In the same order as the above "Who, What, Why", as a user scrolls they will see
 
 *Content Requirements:*
 >Provide additional information which does not fit on a CV, such as a longer about me section and example areas "products" I can provide to a business or project partner.
->View my projects, repositories and skills.
+>View my projects, repositories, and skills.
 
 3. Structure:
 > * A single-page layout. 
@@ -87,8 +86,7 @@ In the same order as the above "Who, What, Why", as a user scrolls they will see
 >
 > * A logical 'start to finish' layout from top to bottom, that will ultimately tell my story as a user scrolls. 
 >
-> * Each section will add a small
-> amount of 'new' information to them, and each section will have interactive features to engage the audience, such as pop-ups, links, or downloads.
+> * Each section will add a small amount of 'new' information to the user, and each section will have interactive features to engage the audience, such as pop-ups, links, or downloads.
 
 4. Skeleton:
 > With the above steps in place, I have created wireframes for desktop, tablet & mobile device. (view them [here](#Wireframes))
@@ -98,7 +96,7 @@ In the same order as the above "Who, What, Why", as a user scrolls they will see
 > for each section, this is a subtle design feature to show sections as individual "blocks", each "block" is independent of one another and tells it's own section of my "story".
 >
 > Being a development portfolio, I aim to use colors similar to colors seen in computer "dark mode" such as white (or just off white) as a text color, a blue color and use an 
-> eye catching color for buttons which I can try to grab a users attention with.
+> eye-catching color for buttons that I can try to grab a user's attention with.
 
 ### <ins>**_Logo_**</ins>
 As branding is such a huge part of sales and promotion, I wanted to create a simple, yet professional looking logo. As I am open to freelance work, I believe that creating a 
@@ -142,11 +140,10 @@ is a button to download my CV. This means this document is immediately available
 Scrolling down from the welcome section a user will encounter several sections, I aimed to keep sections short (on purpose) to avoid an overload of information. This design concept also allows a user to see clearly that there is another 
 section, this allows the page to flow easily from one section to the next, picking up useful information along the way.
 
-From anywhere on this portfolio page, you can get to any information in no more than 3 clicks.
+From anywhere on this portfolio page, you can get to any information in 4 or less clicks.
 
 ### <ins>**_Responsive Design:_**</ins>
-Each section of this project is responsive. All sections are contained within collapsable sections to allow a great user experience
-regardless of the platform they are using to access the page.
+Each section of this project is responsive. All sections are contained within collapsable sections to allow a great user experience across all devices.
 
 Other responsive design features include the "repositioning" of buttons depending on user screen width. This was achieved by creating two 
 objects and using the "display: hidden" CSS to target specific screen widths and maintain a highly responsive design.
@@ -189,7 +186,7 @@ In the future this portfolio will include more JavaScript, for example, the 'bac
     
 ------------------
 ## **Technologies Used**
-For this project HTML & CSS were used, as well as Bootstrap and jQuery via CDN.
+For this project, HTML & CSS were used, as well as Bootstrap and jQuery via CDN.
 
 The form on this portfolio page also uses a 3rd party email provider to deliver emails to my Gmail account.
 
@@ -209,10 +206,11 @@ dev tools to ensure compliance across all categories.
 
 ### Performance:
 > To boost my performance score, I have changed all my images to .jpg format, as well as lowered their size, but not to a point that changed their overall quality. This
-is why my performance score is 83 and not higher. I was not willing to lower the quality of the design element of my page to improve this score.
+is why my performance score is not higher. I was not willing to lower the quality of the design element of my page to improve this score.
 
 ### Accessibility:
-> To achieve this score I have added ALT text to all images, as well as 'screen reader only' notes where needed.
+> To increase accessibility I have used alt text, screen reader text (where needed) and have implemented JavaScript buttons for my audio file instead of the basic 
+HTML 'audio controls', this will allow users who cannot use a mouse access the specific buttons.
 
 ### Best Practices:
 > Unfortunately this section seemed to pick up that my logo should have been bigger, even though my logo is sized specific to this project and is therefore displayed at 100%. Once again, I chose the design feature of having my logo was more important than raising this section to 100%.
@@ -225,7 +223,7 @@ is why my performance score is 83 and not higher. I was not willing to lower the
 ### <ins>**_Local Deployment:_**</ins>
 To deploy this project on your local system, you can follow these steps:
 
-> 1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
+>1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
 >2. Above the files, there is a button with a download symbol and the text "Code"
 >3. Once you click the button "Code" you will have an option to "Download ZIP"
 >4. Download the ZIP file and extract the folder on your local computer.
@@ -259,23 +257,35 @@ Although most of the content and code in this project are my own, I have also us
     
 
 ### <ins>**_Media:_**</ins>
->Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/hacker-attack-mask-binary-one-4703109/)
+>**Background Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/hacker-attack-mask-binary-one-4703109/)
 >
->Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/whiskey-bar-alcohol-glass-scotch-315178/)
+>**Whiskey Glass Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/whiskey-bar-alcohol-glass-scotch-315178/)
 >
->Full Stack Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/web-web-developer-1935737/)
+>**Full Stack Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/web-web-developer-1935737/)
 >
->Content Writing Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/cms-wordpress-265127/)
+>**Content Writing Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/cms-wordpress-265127/)
 >
->HTML, Java, JavaScript, CSS, Bootstrap, Python, SQL Logos - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>**HTML Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
 >
->SEO Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/search-engine-optimization-seo-4111000/)
+>**Java Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
 >
->Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/)
+>**JavaScript Logo** - [Free PNG Logos](https://www.freepnglogos.com/pics/javascript)
 >
->Audio - AI voice provided by Google Wavenet (chrome extension)
+>**CSS Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
 >
->Logo - This logo uses the idea from a [WIX](https://wix.com) logo, however, the logo on this website is created by myself in Photoshop, using the same style design as seen on WIX.
+>**Bootstrap Logo** - [Pixabay Stock & Royalty Free Image](https://www.piecex.com/articles/Migrating-to-Bootstrap-4-280)
+>
+>**Python Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
+>
+>**SQL Logo** - [SubPNG](https://www.subpng.com/png-5boseb/)
+>
+>**SEO Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/search-engine-optimization-seo-4111000/)
+>
+>**Graphic Design Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/)
+>
+>**Audio** - AI voice provided by Google Wavenet (chrome extension)
+>
+>**Logo** - This logo uses the idea from a [WIX](https://wix.com) logo, however, the logo on this website is created by myself in Photoshop, using the same style design as seen on WIX.
 
 ### <ins>**_Content:_**</ins>
 All of the text content in this project is original content. See above for image credits & acknowledgements, for code attribution see below.
@@ -288,6 +298,12 @@ Media: Play, Pause and Stop buttons incorporate JavaScript which is a snippet fr
 Navbar: Idea for layout taken from Whiskey Drop.
 
 Footer: Layout idea taken from Resume walkthrough.
+
+Bootstrap: Structure of sections, modal popup, 
+
+Animista: Entrance animation for title text.
+
+W3Schools: CSS feature to scale on hover (although this was then edited to my liking).
 
 ### <ins>**_Acknowledgments:_**</ins>
 I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips during this project. I would also like to thank 
