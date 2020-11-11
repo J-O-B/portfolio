@@ -36,7 +36,8 @@ items such as my CV.
 7. [Credits](#Credits)
     1. [Media](#Media)
     2. [Content](#Content)
-    3. [Acknowledgments](#Acknowledgments)
+    3. [Attribution](#Attribution)
+    4. [Acknowledgments](#Acknowledgments)
 
 ## **Description**
 This development is a personal portfolio page. This project aims to convey my experience to a potential recruiter. Displaying 5 key sections: About Me, Skills, Projects, What I Offer & a Contact Form.
@@ -56,6 +57,13 @@ Being a front end development, UX was extremely important. Easy access to inform
 for example I have implemented the same style and color button for all-important "clickable" links, all individual sections are 'highlighted' by using a darker background, this makes sections raise up from the background and also 
 allows for easy reading of the page content. After building this page, I got friends and family to browse the page (without telling them about any features), one item that was highlighted was the images 
 in the "What I Offer" page, as a result of this live test, I have made these images clickable which also opens the relevant modal popup.
+
+On loading this page, in the center of the screen is the welcome area showing Who I Am, What I Do & Why I'm Here (Name, What I Do & My CV).
+In the same order as the above "Who, What, Why", as a user scrolls they will see:
+
+1. **Who I am** - An introduction to myself - *"About Me" section,* 
+2. **What I do** - What skills do I have? What help can I provide? What have I worked on? - *"Skills", "Projects" & "What I Do" sections,*
+3. **Why I'm here** - I'm here to get in contact with a potential recruiter or collaborator - *"Work With Me section" (Contact me form)*
 
 #### 5 Planes of UX:
 1. Strategy:
@@ -252,9 +260,20 @@ Although most of the content and code in this project are my own, I have also us
 >Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
 >
 >Audio - AI voice provided by Google Wavenet (chrome extension)
+>
+>Logo - This logo uses the idea from a [WIX](https://wix.com) logo, however, the logo on this website is created by myself in Photoshop, using the same style design as seen on WIX.
 
 ### <ins>**_Content:_**</ins>
-All of the text content in this project is original content. See above for image credits & acknowledgements.
+All of the text content in this project is original content. See above for image credits & acknowledgements, for code attribution see below.
+
+### <ins>**_Attribution:_**</ins>
+This project incorporates both Bootstrap and JS via CDN. The creators of these features belong to their respective owners & creators. 
+
+Media: Play, Pause and Stop buttons incorporate JavaScript which is a snippet from Mozilla Developer (prior to editing the code).
+
+Navbar: Idea for layout taken from Whiskey Drop.
+
+Footer: Layout idea taken from Resume walkthrough.
 
 ### <ins>**_Acknowledgments:_**</ins>
 I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips during this project. I would also like to thank 
