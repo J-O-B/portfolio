@@ -42,9 +42,7 @@ img{
     border-radius:50%;
     z-index:1;
 }
-
 /* Social icons sidebar desktop only  */
-
 @media only screen and (min-width:1350px){
 .social-bar {
     position: fixed;
@@ -81,6 +79,16 @@ img{
 .social-bar {
     display:none;
 }
+}
+.description{
+    width:80%;
+    font-size:90%;
+    margin:10px 50px 10px 50px;
+}
+@media only screen and (min-width:2200px){
+    .description{
+        font-size: 100%;
+    }
 }
 
 /* ---------------------------------------------Containers--------------------------------- */
@@ -323,19 +331,9 @@ img{
     width:200px;
 }
 
-.description{
-    font-size:80%;
-    margin:10px 50px 10px 50px;
-}
-@media only screen and (min-width:2200px){
-    .description{
-        font-size: 100%;
-    }
-}
-
 /* -------------------------------------------What I Offer area ---------------------------------------- */
 .product-image{
-    max-width:100%;
+    width:80%;
     height:auto;
     border-radius: 15%;
 }
@@ -367,6 +365,7 @@ img{
 .footer{
     bottom: 0;
     left: 0;
+    padding-top:40px;
     padding-left: 0;
     padding-right: 0;
     text-align: center;
