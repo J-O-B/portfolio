@@ -29,7 +29,7 @@ h1 {
 img{
     border:1px solid rgb(0, 0, 0);
 }
-/*back to top button*/
+/*back to top button (custom but created after reading W3Schools (details in readme)*/
 .back-to-top i{
     font-size:30px;
     width:30px;
@@ -42,7 +42,7 @@ img{
     border-radius:50%;
     z-index:1;
 }
-/* Social icons sidebar desktop only  */
+/* Social icons sidebar desktop only (custom but created after reading W3Schools (details in readme) */
 @media only screen and (min-width:1350px){
 .social-bar {
     position: fixed;
@@ -75,16 +75,19 @@ img{
     width:110%;
 }
 }
+
 @media only screen and (max-width:1349px){
-.social-bar {
-    display:none;
+    .social-bar {
+        display:none;
+    }
 }
-}
+
 .description{
     width:80%;
     font-size:90%;
     margin:0 auto;
 }
+
 @media only screen and (min-width:2200px){
     .description{
         font-size: 100%;
@@ -113,7 +116,6 @@ img{
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
 
 .section-container {
@@ -191,7 +193,6 @@ img{
 .block-divider--short {
     width: 35px;
 }
-
 /* --------------------------------------------------------- Navbar area -----------------------------------------------*/
 .navalert-container {
     position: absolute;
@@ -241,24 +242,28 @@ img{
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 .home-nav:hover,
 .contact-nav:hover,
 .about-nav:hover,
+.skills-nav:hover,
 .project-nav:hover,
 .what-do-i-offer-nav:hover,
 .work-nav:hover{
     background: rgba(0, 21, 107, 0.8);
 }
+
 .coding-button{
     margin-right:50px;
 }
-
-/* CV Download button will display in different locations depending on user device */
+/* CV Download button will display in different locations depending on user device
+    coding-button is navbar button, -mobile is located below CV button. */
 @media only screen and (max-width: 768px) {
-  .coding-button {
-    display:none;
-  }
+    .coding-button {
+        display:none;
+    }
 }
+
 @media only screen and (min-width:769px){
     .coding-button-mobile{
         display:none;
@@ -273,7 +278,6 @@ img{
     height:85vh;
     width: 90vw;
 }
-
 
 @media only screen and (max-width:425px){
     .welcome-container{
@@ -308,18 +312,22 @@ img{
 .carousel{
     width:100%;
 }
+
 .carousel img{
     height:230px;
     border-radius: 5%
 }
+
 .caption{
     width:80%;
     margin: 0 auto;
 }
+/* Styling the bootstrap left and right buttons */
 .carousel-control-prev-icon {
     margin-bottom: 60%;
     background-size: 150%;
 }
+
 .carousel-control-next-icon {
     margin-bottom: 60%;
     background-size: 150%;
@@ -330,7 +338,6 @@ img{
     height:200px;
     width:200px;
 }
-
 /* -------------------------------------------What I Offer area ---------------------------------------- */
 .product-image{
     width:80%;
@@ -349,6 +356,7 @@ img{
     margin-bottom:30px;
     padding:0;
 }
+
 .contact-form{
     font-size: 1rem;
     font-weight: 400;
@@ -358,6 +366,7 @@ img{
     justify-content: center;
     align-content: center;
 }
+
 .input{
     width:80%;
 }
@@ -373,10 +382,12 @@ img{
     color:white;
     z-index: 1;
 }
+
 .download{
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .download-button,
 .download-button i{
     background: rgba(240, 95, 64, 1);
@@ -386,15 +397,17 @@ img{
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
 }
+
 .download-button i:hover{
     background: #fafafa;
     color:black;
 }
-
+/* Used same format as resume tutorial for social links*/
 .social-links{
     margin:0;
     padding-bottom: 15px;
 }
+
 .social-links li a i{
     width:32px;
     height:32px;
@@ -411,13 +424,16 @@ img{
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 .social-links li a i:hover{
     background: green;
 }
+
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
 /*-------------------------------------------- Jumbotron Headings ---------------------------------------------*/
+/* Jumbotron thanks for bootstrap */
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius:30%;
@@ -462,7 +478,7 @@ img{
     color: rgba(240, 95, 64, 1);
 }
 /*-------------------------------------------------------------------- Animation Section ------------------*/
-/*This '.feature' animation is originally from W3 Schools */
+/*This '.feature' animation is based on scale transform from W3 Schools (w3schools.com/css/css3_2dtransforms.asp)*/
 @media only screen and (min-width: 1024px) {
     .feature
     .social-icon {
@@ -489,7 +505,7 @@ img{
         transform: scale(1.1);
     }
 }
-/* hover linear gradient */
+/* hover background glow */
 .about-container,
 .skill-container,
 .project-container,
@@ -515,10 +531,12 @@ img{
 	        animation: slide-in-blurred-left 4s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
 }
 /* ---------------------------------------------- Modal Section --------------------------------------*/
+/* This feature is from Bootstrap (getbootstrap.com/docs/4.0/components/modal/) */
 .modal {
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
 }
+
 .modal-dialog {
     top:5%;
 }
@@ -528,10 +546,11 @@ img{
     color: #fafafa;
     text-align:center;
 }
+
 audio{
     display:none;
 }
-
+/* same progress bars used in Code Institute Resume walkthrough*/
 .progress {
     position: relative;
     height: 25px;
@@ -561,6 +580,7 @@ audio{
 .history-items{
     margin-bottom:0px;
 }
+
 .timeline-item{
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -601,25 +621,24 @@ audio{
     content: '';
     background: #fafafa;
 }
-
 /* Keyframes (animista.net) */
 @keyframes slide-in-blurred-left {
-  0% {
-    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-            transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-    -webkit-filter: blur(40px);
-            filter: blur(40px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-            transform: translateX(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-            filter: blur(0);
-    opacity: 1;
-  }
+    0% {
+        -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+                transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+        -webkit-transform-origin: 100% 50%;
+                transform-origin: 100% 50%;
+        -webkit-filter: blur(40px);
+                filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+                transform: translateX(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+                filter: blur(0);
+        opacity: 1;
+    }
 }

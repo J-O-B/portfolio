@@ -197,6 +197,8 @@ The form on this portfolio page also uses a 3rd party email provider to deliver 
 ## **Testing**
 To test this project I first used [W3C_validator](https://validator.w3.org/) to check all HTML, I then checked all of the CSS via the [W3C_Validation](https://jigsaw.w3.org/css-validator/).
 
+![Testing](assets/readme/testing.jpg)
+
 Adding to these tests, I used dev tools in my browser (Chrome) to see specific areas that I wanted to change. As this project is a front end project, the majority of my testing 
 was that of design and the use of dev tools to achieve this.
 
@@ -248,6 +250,9 @@ To deploy this project remotely, you can follow these steps:
 Although most of the content and code in this project are my own, I have also used code snippets from bootstrap, for example, the modal popup is the standard bootstrap modal which was then changed to the specifications I wanted.
     
 >* The navbar is based on the same navbar which was used in Whiskey Drop.
+>* "Progress bars" (used in experience modal & full stack modal) are direct copies of the progress bars used in the Code Institute Resume walkthrough.
+>* The entry animation for the website header is based on code from [Animista](https://animista.net/)
+>* The "social media sidebar" and back to top button is based on [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) (same method used for back to top button.)
 >* The footer layout is based on the footer section used in the Resume tutorial.
 >* The modal feature is based on a code snippet from [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/components/modal/).
 >* The "feature" section of my CSS is original yet based on a tutorial from W3Schools.com
