@@ -1,6 +1,7 @@
 # Milestone Project One
-![Portfolio](assets/readme/Preview.jpg)
+
 ## Personal Portfolio
+![Portfolio](assets/readme/Preview.jpg)
 
 Welcome to my first milestone project! For this project, I chose to create a personal portfolio. My 
     reasoning for this selection is based on the fact that I can use this project to come back to as I 
@@ -118,35 +119,36 @@ Alternatively, you can navigate to the Assets folder, then open the Readme folde
 Being a personal portfolio the following user stories specific to this project are:
 * **As a user I want to:** *Know who John is?*
 
-![About](assets/readme/who-is-john.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Know Johns skills*
 
-![Johns skills](assets/readme/skills.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Know what experience John has?*
 
-![Johns experience](assets/readme/experience.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Know what projects John has worked on / completed?*
 
-![Johns projects](assets/readme/projects.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Know what services can John O'Brien add to our company?*
 
-![Johns Services](assets/readme/offer.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Download a CV.*
 
-![Johns CV](assets/readme/CV.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *View John's social media.*
 
-![Johns social media](assets/readme/social.jpg)
+        **Preview Avialable At Bottom Of Readme**
 
 * **As a user I want to:** *Contact John.*
 
-![Contact John](assets/readme/contact.jpg)
+        **Preview Avialable At Bottom Of Readme**
+
 
 
 ### <ins>**_Information Architectures_**</ins>
@@ -182,13 +184,13 @@ A subtle addition is the fact that all "action" buttons feature RGB 240,95,64, w
 
 RGB 240,95,64 also features in the two forward slashes in the logo.
 
-### <ins>**_Icons_**</ins>
+### <ins>**_Icons:_**</ins>
 Logos are placed in multiple locations on this page. They are all supplied via FontAwesome CDN.
 
 --------------------
 ## **Features**
 
-### <ins>**_Existing Features_**</ins>
+### <ins>**_Existing Features:_**</ins>
 
 Currently, this project has several features including a modal popup, links to download my CV, and a lot of 
 interactive features using CSS hover effects.
@@ -199,7 +201,7 @@ has allowed me to create a basic HTML form, without the need for any additional 
 I have also included features that are layered using Z-Index, this allowed me to include the back to top feature
 as well as the social media sidebar.
 
-### <ins>**_Future Features_**</ins>
+### <ins>**_Future Features:_**</ins>
 In the future this portfolio will include more JavaScript, for example, the 'back to top' button would be nicer if it was a scrolling motion rather than a simple jump back to the top of the page. I also plan on updating the contact form to use an API rather than the current feature which uses [FormSpree](https://formspree.io/) to handle the mail.
     
 ------------------
@@ -220,17 +222,17 @@ dev tools to ensure compliance across all categories.
 
 ![Lighthouse Test](assets/readme/lighthouse.jpg)
 
-Performance:
+### Performance:
 > To boost my performance score, I have changed all my images to .jpg format, as well as lowered their size, but not to a point that changed their overall quality. This
 is why my performance score is 83 and not higher. I was not willing to lower the quality of the design element of my page to improve this score.
 
-Accessibility:
+### Accessibility:
 > To achieve this score I have added ALT text to all images, as well as 'screen reader only' notes where needed.
 
-Best Practices:
+### Best Practices:
 > Unfortunately this section seemed to pick up that my logo should have been bigger, even though my logo is sized specific to this project and is therefore displayed at 100%. Once again, I chose the design feature of having my logo was more important than raising this section to 100%.
 
-SEO:
+### SEO:
 > Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles.
 
 --------------------
@@ -302,3 +304,27 @@ Footer: Layout idea taken from Resume walkthrough.
 ### <ins>**_Acknowledgments:_**</ins>
 I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips during this project. I would also like to thank 
 <ins>Matt Rudge</ins> for his tutorial on Bootstrap, which this project is dependent on.
+
+## *Previews*:
+### Homepage / Welcome Section:
+![Portfolio](assets/readme/Preview.jpg)
+
+### About Me Section:
+![About](assets/readme/who-is-john.jpg)
+
+### Skills Section:
+![Johns skills](assets/readme/skills.jpg)
+
+### Experience Popup:
+![Johns experience](assets/readme/experience.jpg)
+
+### Projects Section:
+![Johns projects](assets/readme/projects.jpg)
+
+### "What I Offer" Section:
+![Johns Services](assets/readme/offer.jpg)
+
+### Contact Form:
+![Contact John](assets/readme/contact.jpg)
+![social media](assets/readme/social.jpg)
+![John CV](assets/readme/CV.jpg)
