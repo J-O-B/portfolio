@@ -221,6 +221,8 @@ HTML 'audio controls', this will allow users who cannot use a mouse access the s
 --------------------
 ## **Deployment**
 ### <ins>**_Local Deployment:_**</ins>
+This project was developed in the Cloud9 IDE. Throughout this project, files have been committed to git and pushed to GitHub using the built in function on Cloud9.
+
 To deploy this project on your local system, you can follow these steps:
 
 >1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
@@ -234,12 +236,15 @@ To deploy this project on your local system, you can follow these steps:
     
 ### <ins>**_Remote Deployment:_**</ins>
 To deploy this project remotely, you can follow these steps:
->1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
->2. Close to the top of the page, there is a navigation bar, the first item here is "<>Code", the last item is "Settings".
+>1. Log Into GitHub.
+>2. Navigate to my GitHub repository for this project which can be found [here](https://github.com/J-O-B/portfolio).
+>    
+>   (Close to the top of the page, there is a navigation bar, the first item here is "<>Code", the last item is "Settings".)
+>
 >3. Click on settings
 >4. Scroll down the page until you find the section labeled "GitHub Pages"
 >5. The first item in GitHub Pages is "Source", click the associated dropdown button labeled "None". 
->6. You will now have to select "master" as the source.
+>6. You will now have to select "master branch" as the source.
 >7. Once you have selected "master" click the "Save" button. 
 >8. The page should now refresh so you may have to scroll back down to "GitHub Pages".
 >9. Now you will see a link presented which should look like this https://j-o-b.github.io/portfolio/.
