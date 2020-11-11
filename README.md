@@ -117,13 +117,37 @@ Alternatively, you can navigate to the Assets folder, then open the Readme folde
 
 Being a personal portfolio the following user stories specific to this project are:
 * **As a user I want to:** *Know who John is?*
+
+![About](assets/readme/who-is-john.jpg)
+
 * **As a user I want to:** *Know Johns skills*
+
+![Johns skills](assets/readme/skills.jpg)
+
 * **As a user I want to:** *Know what experience John has?*
+
+![Johns experience](assets/readme/experience.jpg)
+
 * **As a user I want to:** *Know what projects John has worked on / completed?*
+
+![Johns projects](assets/readme/projects.jpg)
+
 * **As a user I want to:** *Know what services can John O'Brien add to our company?*
+
+![Johns Services](assets/readme/offer.jpg)
+
 * **As a user I want to:** *Download a CV.*
+
+![Johns CV](assets/readme/CV.jpg)
+
 * **As a user I want to:** *View John's social media.*
+
+![Johns social media](assets/readme/social.jpg)
+
 * **As a user I want to:** *Contact John.*
+
+![Contact John](assets/readme/contact.jpg)
+
 
 ### <ins>**_Information Architectures_**</ins>
 
