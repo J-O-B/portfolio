@@ -264,10 +264,7 @@ img{
     width: 90vw;
 }
 
-.description{
-    font-size:80%;
-    margin:10px 50px 10px 50px;
-}
+
 @media only screen and (max-width:425px){
     .welcome-container{
         margin-top:20%;
@@ -314,6 +311,16 @@ img{
     border-radius:50%;
     height:200px;
     width:200px;
+}
+
+.description{
+    font-size:80%;
+    margin:10px 50px 10px 50px;
+}
+@media only screen and (min-width:2200px){
+    .description{
+        font-size: 100%;
+    }
 }
 
 /* -------------------------------------------What I Offer area ---------------------------------------- */
