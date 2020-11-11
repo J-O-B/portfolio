@@ -116,39 +116,22 @@ Alternatively, you can navigate to the Assets folder, then open the Readme folde
 
 ### <ins>**_User Stories_**</ins>
 
-Being a personal portfolio the following user stories specific to this project are:
-* **As a user I want to:** *Know who John is?*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Know Johns skills*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Know what experience John has?*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Know what projects John has worked on / completed?*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Know what services can John O'Brien add to our company?*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Download a CV.*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *View John's social media.*
-
-        **Preview Avialable At Bottom Of Readme**
-
-* **As a user I want to:** *Contact John.*
-
-        **Preview Avialable At Bottom Of Readme**
-
+|Being a personal portfolio the following user stories specific to this project are: |
+|------------------------------------------------------- |
+|* **As the creator I want to:** *Introduce myself to recruiters or collaborators.* |
+|* **As the creator I want to:** *Showcase my skills.* |
+|* **As the creator I want to:** *Show my projects.* |
+|* **As the creator I want to:** *Breakdown what I can do to show specific areas of expertise (incase of freelance work).* |
+|* **As the creator I want to:** *Get contacted about potential job or work opportunities.* |
+| 
+|* **As a user I want to:** *Know who John is?* |
+|* **As a user I want to:** *Know Johns skills* |
+|* **As a user I want to:** *Know what experience John has?* |
+|* **As a user I want to:** *Know what projects John has worked on / completed?* |
+|* **As a user I want to:** *Know what services can John O'Brien add to our company?* |
+|* **As a user I want to:** *Download a CV.* |
+|* **As a user I want to:** *View John's social media.* |
+|* **As a user I want to:** *Contact John.* |
 
 
 ### <ins>**_Information Architectures_**</ins>
