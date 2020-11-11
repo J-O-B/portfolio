@@ -3,11 +3,15 @@
 ## Personal Portfolio
 
 Welcome to my first milestone project! For this project, I chose to create a personal portfolio. My 
-    the reasoning for this selection is based on the fact that I can use this project to come back to as I 
-    progress through [Code Institute](https://codeinstitute.net) and display my work in the "Projects"     
-    section of this page.
+    reasoning for this selection is based on the fact that I can use this project to come back to as I 
+    progress through [Code Institute](https://codeinstitute.net) and display my work in the "Projects" section of this page.
 
-After researching full stack developer portfolios online (Google and YouTube), I noticed almost all developers implement a single page design. I like this design and chose to follow what seems to be the "norm" in this category.
+After researching full stack developer portfolios online (Google and YouTube), I noticed almost all developers implement a single page design. 
+I like this design and chose to follow what seems to be the "norm" in this category.
+
+This project on-top of being a milestone project also serves as a real world project. I recently purchased a domain, which I will host 
+this project on, however, I will wait to deploy this project on such a live environment until a later date where I may restrict access to 
+items such as my CV. 
 
 ### Table of contents:
 1. [Description](#Description),
@@ -32,14 +36,26 @@ After researching full stack developer portfolios online (Google and YouTube), I
 7. [Credits](#Credits)
     1. [Media](#Media)
     2. [Content](#Content)
-    3. [Acknowledgements](#Acknowledgements)
+    3. [Acknowledgments](#Acknowledgments)
 
 ## **Description**
-This development is a personal portfolio page. This project aims to convey my experience to a potential recruiter. At this point, I have added two "placeholder" projects, which will be replaced by real projects as I progress through the course at Code Institute. This project is designed in such a way that the structure can easily be added to, or modified in the future for simplification of future updates.
-    
+This development is a personal portfolio page. This project aims to convey my experience to a potential recruiter. Displaying 5 key sections: About Me, Skills, Projects, What I Offer & a Contact Form.
+
+The aim of this project is to show supporting documentation which does not fit on a basic CV, instead this project aims to accompany my CV where a potential recruiter, or collaborator,
+can view my experience, skills, projects, what I can add to a team and ultimately contact me, or download/view my CV.
+
+This project is designed in such a way that the structure can easily be added to, or modified in the future for simplification of future updates. At this point, this project uses mainly HTML 
+and CSS with Bootstrapand jQuery (via CDN) as well as a minimal amount of JavaScript (for sound file accessibility*). In the future, this project will bring in more JavaScript functionality 
+such as a "tag cloud" for projects, I could incorporate this feature now, but I chose only to use features I understand completely.
+
+*Accessibility** of sound file uses JavaScript to enable users who cannot use a mouse play/pause and stop the sound file.  
+
 ---------------
 ## **UX**
-Being a front end development, UX was extremely important. Easy access to information via easy to find links, as well as creating a relaxed, yet professional design was possibly the most important feature of this project. Using repetition in areas is one key aspect of this portfolio, I have implemented the same style and color button for all-important "clickable" links.
+Being a front end development, UX was extremely important. Easy access to information via easy to find links, as well as creating a relaxed, yet professional design was possibly the most important feature of this project. Using specific repetition in areas is one key aspect of this portfolio, 
+for example I have implemented the same style and color button for all-important "clickable" links, all individual sections are 'highlighted' by using a darker background, this makes sections raise up from the background and also 
+allows for easy reading of the page content. After building this page, I got friends and family to browse the page (without telling them about any features), one item that was highlighted was the images 
+in the "What I Offer" page, as a result of this live test, I have made these images clickable which also opens the relevant modal popup.
 
 #### 5 Planes of UX:
 1. Strategy:
@@ -52,12 +68,17 @@ Being a front end development, UX was extremely important. Easy access to inform
 
 *Content Requirements:*
 >Provide additional information which does not fit on a CV, such as a longer about me section and example areas "products" I can provide to a business or project partner.
+>View my projects, repositories and skills.
 
 3. Structure:
-> As it seems like the 'norm' for personal portfolios is a single-page layout. I do not want to overload a user with information, to stop this from happening I plan on using 
-> 'popup' style features such as "read more", this will give the user the power to view as much information as they would like to see. 
+> * A single-page layout. 
 >
-> I aim to structure this page so that it starting from the top of the page, a user can scroll through this portfolio like they are reading a book. Each section will add a small
+> * I do not want to overload a user with information. To stop this from happening use 'popup' style features such as "read more", this will give the user 
+>the power to view as much information as they would like to see & improve user interaction. 
+>
+> * A logical 'start to finish' layout from top to bottom, that will ultimately tell my story as a user scrolls. 
+>
+> * Each section will add a small
 > amount of 'new' information to them, and each section will have interactive features to engage the audience, such as pop-ups, links, or downloads.
 
 4. Skeleton:
@@ -66,13 +87,20 @@ Being a front end development, UX was extremely important. Easy access to inform
 5. Surface:
 > Finally, the look of the page (being a portfolio) was high up on the level of importance. To achieve the look that I wanted, but in keeping with good UX, I have added "cards" 
 > for each section, this is a subtle design feature to show sections as individual "blocks", each "block" is independent of one another and tells it's own section of my "story".
+>
+> Being a development portfolio, I aim to use colors similar to colors seen in computer "dark mode" such as white (or just off white) as a text color, a blue color and use an 
+> eye catching color for buttons which I can try to grab a users attention with.
 
 ### <ins>**_Logo_**</ins>
-As branding is such a huge part of sales and promotion, I wanted to create a simple, yet professional looking logo. As I am open to freelance work, I believe that creating a brand around myself is quite important and
-    I will continue to work on building this over the coming months and years. 
+As branding is such a huge part of sales and promotion, I wanted to create a simple, yet professional looking logo. As I am open to freelance work, I believe that creating a 
+brand around myself is quite important and I will continue to work on building this over the coming months and years. 
+
+(The idea of the design comes from a JavaScript comment, using two forward slashes followed by my initials.)
 
 ### <ins>**_Wireframes_**</ins>
 You can view the wireframe designs [here](assets/readme/wireframe_design.pdf)
+
+*Please note that the skills section is omitted from the wireframe designs. This feature was included at a later date (this also shows how easy it is to add a new section to this project).
 
 Alternatively, you can navigate to the Assets folder, then open the Readme folder for all assets contained
     within this Readme file.
@@ -81,6 +109,7 @@ Alternatively, you can navigate to the Assets folder, then open the Readme folde
 
 Being a personal portfolio the following user stories specific to this project are:
 * **As a user I want to:** *Know who John is?*
+* **As a user I want to:** *Know Johns skills*
 * **As a user I want to:** *Know what experience John has?*
 * **As a user I want to:** *Know what projects John has worked on / completed?*
 * **As a user I want to:** *Know what services can John O'Brien add to our company?*
@@ -216,6 +245,8 @@ Although most of the content and code in this project are my own, I have also us
 >
 >Content Writing Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
 >
+>HTML, Java, JavaScript, CSS, Bootstrap, Python, SQL Logos - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>
 >SEO Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
 >
 >Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
@@ -225,6 +256,6 @@ Although most of the content and code in this project are my own, I have also us
 ### <ins>**_Content:_**</ins>
 All of the text content in this project is original content. See above for image credits & acknowledgements.
 
-### <ins>**_Acknowledgements:_**</ins>
+### <ins>**_Acknowledgments:_**</ins>
 I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips during this project. I would also like to thank 
 <ins>Matt Rudge</ins> for his tutorial on Bootstrap, which this project is dependent on.

@@ -145,6 +145,8 @@ img{
     border-radius: 25px;
     text-align: center;
     color: #fafafa;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 .products {
