@@ -259,19 +259,19 @@ Although most of the content and code in this project are my own, I have also us
     
 
 ### <ins>**_Media:_**</ins>
->Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>Background Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/hacker-attack-mask-binary-one-4703109/)
 >
->Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>Whiskey Glass Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/whiskey-bar-alcohol-glass-scotch-315178/)
 >
->Full Stack Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>Full Stack Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/web-web-developer-1935737/)
 >
->Content Writing Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>Content Writing Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/cms-wordpress-265127/)
 >
 >HTML, Java, JavaScript, CSS, Bootstrap, Python, SQL Logos - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
 >
->SEO Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>SEO Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/search-engine-optimization-seo-4111000/)
 >
->Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com)
+>Graphic Design Image - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/)
 >
 >Audio - AI voice provided by Google Wavenet (chrome extension)
 >
