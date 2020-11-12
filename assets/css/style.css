@@ -168,16 +168,6 @@ img{
     font-size: 45px;
     line-height: 45px;
 }
-
-.products .btn {
-    background: #000000;
-    border-color: #000000;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f26D50;
-}
 /* -------------------------------------------Block Dividers-------------------------------------- */
 .block-divider {
     width: 75px;
@@ -220,6 +210,8 @@ img{
     font-weight: bold;
     margin:0;
     padding:0;
+    min-width:164px;
+    height:auto;
 }
 
 .navbar-collapse{
@@ -352,9 +344,10 @@ img{
 /* ------------------------------------------Work With Me (contact) ----------------------------------- */
 .contact-img{
     max-width:80%;
+    border-radius:5%;
     height:auto;
     margin-bottom:30px;
-    padding-top:50px;
+    margin-top:50px;
 }
 
 .contact-form{
@@ -388,19 +381,9 @@ img{
     margin-bottom: auto;
 }
 
-.download-button,
-.download-button i{
-    background: #F26D50;
-    color:#000000;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-}
-
-.download-button i:hover{
-    background: #fafafa;
-    color:black;
+.download i{
+    text-decoration: none;
+    color: white;
 }
 /* Used same format as resume tutorial for social links*/
 .social-links{
@@ -414,7 +397,7 @@ img{
     padding:12px 0;
     border-radius:50%;
     font-size:13px;
-    margin-right:10px;
+    margin: 0 10px 0 0;
     line-height: 7px;
     text-align:center;
     color: #fafafa;
