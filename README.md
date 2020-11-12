@@ -181,6 +181,12 @@ has allowed me to create a basic HTML form, without the need for any additional 
 I have also included features that are layered using Z-Index, this allowed me to include the back to top feature
 as well as the social media sidebar.
 
+Accessibility is a huge part of this project. To help users who may depend on this, I have included ALT text for every image on the page, 
+I prior to using a certain color, I have checked the contrast of colors between the foreground and background to comply with [WCAG guidelines](https://color.a11y.com/ContrastPair/), 
+as well as include screen reader text for every button to assist the visually impared. I initially included a basic HTML audio file, however, after reading that 
+the standard HTML 'audio controls' do not comply with keyboard accessibility, I added a two simple JavaScript buttons (Play/Pause and Stop), this JavaScript is attached onto the HTML 
+code which now allows keyboard accessibility to this function.
+
 ### <ins>**_Future Features:_**</ins>
 In the future this portfolio will include more JavaScript, for example, the 'back to top' button would be nicer if it was a scrolling motion rather than a simple jump back to the top of the page. I also plan on updating the contact form to use an API rather than the current feature which uses [FormSpree](https://formspree.io/) to handle the mail.
     
@@ -198,6 +204,8 @@ To test this project I first used [W3C_validator](https://validator.w3.org/) to 
 
 Adding to these tests, I used dev tools in my browser (Chrome) to see specific areas that I wanted to change. As this project is a front end project, the majority of my testing 
 was that of design and the use of dev tools to achieve this.
+
+Using Chrome Dev Tools, I viewed each section of this page on desktop, as well as both portrait and landscape layouts on tablet and mobile to ensure a 100% responsive design.
 
 Once these resources confirmed no errors in the code of the project, I then used "lighthouse" in the Google Chrome
 dev tools to ensure compliance across all categories. 
