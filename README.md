@@ -188,7 +188,12 @@ the standard HTML 'audio controls' do not comply with keyboard accessibility, I 
 code which now allows keyboard accessibility to this function.
 
 ### <ins>**_Future Features:_**</ins>
-In the future this portfolio will include more JavaScript, for example, the 'back to top' button would be nicer if it was a scrolling motion rather than a simple jump back to the top of the page. I also plan on updating the contact form to use an API rather than the current feature which uses [FormSpree](https://formspree.io/) to handle the mail.
+In the future this portfolio will include more JavaScript, for example, the 'back to top' button would be nicer if it was a scrolling motion rather than a simple jump 
+back to the top of the page. I also plan on updating the contact form to use an API rather than the current feature which uses [FormSpree](https://formspree.io/) to handle 
+the mail.
+
+A more advanced feature I would like to add in the future is the interaction of this page. I aim to keep the welcome area as a "dashboard" where all sections can be accessed 
+via interactive script in a "web style" link structure.
     
 ------------------
 ## **Technologies Used**
@@ -221,6 +226,8 @@ improve this score.
 > To increase accessibility I have used alt text, screen reader text (where needed) and have implemented JavaScript buttons for my audio file instead of the basic 
 HTML 'audio controls', this will allow users who cannot use a mouse access the specific buttons. This page also implements structured heading order. I have also implemented 
 colors, and designs that are accepted under [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (Web Content Accessibility Guidelines).
+
+![WCAG Test Result](assets/readme/wcag-valid.jpg)
 
 ### Best Practices:
 > Unfortunately lighthouse was picking up my image as if it should be a larger image ("Expected Size: 486 x 180"), I did try to see how this size worked, but I did not 
