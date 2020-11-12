@@ -160,35 +160,83 @@ objects and using the "display: hidden" CSS to target specific screen widths and
 ### <ins>**_Frameworks:_**</ins>
 
 Adding to this project are the frameworks of both Bootstrap and jQuery. These frameworks form the structural
-    the layout of the page, as well as provide the modal form.
+    the layout of the page, as well as provide the modal form. JavaScript was used to create accessible buttons for the about me media.
 
 ### <ins>**_Typography_**</ins>
 
 For this project, the main typography is Roboto, with Sans Serif as a backup.
 
 ### <ins>**_Colors_**</ins>
-The main colors of this page are RGB 240, 95, 64 as well as RGB 0, 21, 107.
-
-A subtle addition is the fact that all "action" buttons feature RGB 240,95,64, where as all information sections feature RGB 0,21,107.
-
-RGB 240,95,64 also features in the two forward slashes in the logo.
+The main colors of this page are:
+Orange: #F26D50
+Blue: RGB(0, 21, 107)
+Black: #000000
+These colors can be used with eachother within the guidelines of WCAG.
 
 ### <ins>**_Icons:_**</ins>
-Logos are placed in multiple locations on this page. They are all supplied via FontAwesome CDN.
+Icons are placed in multiple locations on this page. They are all supplied via FontAwesome CDN.
 
 --------------------
 ## **Features**
 
 ### <ins>**_Existing Features:_**</ins>
 
-Currently, this project has several features including a modal popup, links to download my CV, and a lot of 
-interactive features using CSS hover effects.
+Currently, this project has several features:
+
+Navbar:
+
+* Dropdown menu,
+* Button for "experience" modal popup,
+* Fully responsive layout.
+
+Welcome Area:
+
+* Button to download my CV,
+* Button for "experience" (will appear only for smaller screens, else button will be in navbar)
+
+About Me Area:
+
+* Responsive layout,
+* Read More modal popup which includes:
+    * A sound file which is keyboard accessible (JavaScript)
+
+Skills Area:
+
+* A self rotating carousel.
+
+Projects Area:
+
+* Responsive layout,
+* Links to live projects,
+* Links to repositories,
+* A placeholder project (currently the "work with me" image)
+
+What I Offer Area:
+
+* Responsive layout,
+* Modal popups for each item.
+
+Work With Me Area:
+
+* Responsive layout,
+* A working contact form.
+
+Footer Area:
+
+* Responsive Layout,
+* Button to download CV,
+* Buttons for social media.
+
+Social Media Sidebar:
+
+* Responsive (only shows on screens that are wide enough).
+
+Back To Top Button:
+
+* Located at the bottom right on all devices is a button to scroll back to the top of the page.
 
 The contact form is currently working thanks to a free website called [FormSpree](https://formspree.io/) which 
 has allowed me to create a basic HTML form, without the need for any additional JavaScript or PHP.
-
-I have also included features that are layered using Z-Index, this allowed me to include the back to top feature
-as well as the social media sidebar.
 
 Accessibility is a huge part of this project. To help users who may depend on this, I have included ALT text for every image on the page, 
 I prior to using a certain color, I have checked the contrast of colors between the foreground and background to comply with [WCAG guidelines](https://color.a11y.com/ContrastPair/), 
