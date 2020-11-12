@@ -58,7 +58,7 @@ for example, I have implemented the same style and color button for all-importan
 allows for easy reading of the page content. After building this page, I got friends and family to browse the page (without telling them about any features), one item that was highlighted was the images 
 in the "What I Offer" page, as a result of this live test, I have made these images clickable which also opens the relevant modal popup.
 
-On loading, this page, in the center of the screen is the welcome area showing Who I Am, What I Do & Why I'm Here (Name, What I Do & My CV).
+On loading, in the center of the screen is the welcome area showing Who I Am, What I Do & Why I'm Here (Name, What I Do & My CV).
 In the same order as the above "Who, What, Why", as a user scrolls they will see:
 
 1. **Who I am** - An introduction to myself - *"About Me" section,* 
@@ -89,7 +89,9 @@ In the same order as the above "Who, What, Why", as a user scrolls they will see
 > * Each section will add a small amount of 'new' information to the user, and each section will have interactive features to engage the audience, such as pop-ups, links, or downloads.
 
 4. Skeleton:
-> With the above steps in place, I have created wireframes for desktop, tablet & mobile device. (view them [here](#Wireframes))
+> With the above steps in place, I have created wireframes for desktop, tablet & mobile device. (View them [here](#Wireframes))
+>
+> After looking at the layout of other portfolios, I will implement the following sections: Welcome, About, Skills, Projects, What I Offer, Work With Me (Contact).
 
 5. Surface:
 > Finally, the look of the page (being a portfolio) was high up on the level of importance. To achieve the look that I wanted, but in keeping with good UX, I have added "cards" 
@@ -102,12 +104,14 @@ In the same order as the above "Who, What, Why", as a user scrolls they will see
 As branding is such a huge part of sales and promotion, I wanted to create a simple, yet professional looking logo. As I am open to freelance work, I believe that creating a 
 brand around myself is quite important and I will continue to work on building this over the coming months and years. 
 
-(The idea of the design comes from a JavaScript comment, using two forward slashes followed by my initials.)
+(I have seen a very similar logo on [WIX](https://wix.com) however the image in this project was created by myself in Photoshop, the idea of the design comes from a 
+JavaScript comment, using two forward slashes followed by my initials.)
 
 ### <ins>**_Wireframes_**</ins>
 You can view the wireframe designs [here](assets/readme/wireframe_design.pdf)
 
-*Please note that the skills section is omitted from the wireframe designs. This feature was included at a later date (this also shows how easy it is to add a new section to this project).
+*Please note that the skills section is omitted from the wireframe designs. This feature was included at a later date (this also shows how easy it is to add a new 
+section to this project).
 
 Alternatively, you can navigate to the Assets folder, then open the Readme folder for all assets contained
     within this Readme file.
@@ -126,25 +130,26 @@ Being a personal portfolio the following user stories specific to this project a
 
 | **As a user I want to:** |
 | ------------------------------------------------------- |
-|1. *Know who John is?* |
-|2. *Know Johns skills* |
-|3. *Know what experience John has?* |
-|4. *Know what projects John has worked on / completed?* |
-|5. *Know what services can John O'Brien add to our company?* |
-|6. *Download a CV.* |
-|7. *View John's social media.* |
-|8. *Contact John.* |
+|1. *Find out who John is* |
+|2. *See Johns skills* |
+|3. *Find out what experience John has* |
+|4. *View the projects John has worked on / completed* |
+|5. *See what services John can add to our company / team* |
+|6. *Download a CV* |
+|7. *View John's social media* |
+|8. *Contact John* |
 
 
 ### <ins>**_Information Architectures_**</ins>
 
-Located on the top right of the page (on desktops) or underneath the welcome message (for tablets & mobile devices) 
-is a button to download my CV. This means this document is immediately available to a potential recruiter. They may simply download my CV and leave the website if they wish.
+Located in the center of the page is my name, what services I can offer, as well as a button linking to my CV, on the periphery are links to my social media (desktop / larger 
+screen widths). A top navbar is available to navigate directly to any specific section on the page.
 
-Scrolling down from the welcome section a user will encounter several sections, I aimed to keep sections short (on purpose) to avoid an overload of information. This design concept also allows a user to see clearly that there is another 
-section, this allows the page to flow easily from one section to the next, picking up useful information along the way.
+Scrolling down from the welcome area a user will encounter several sections, I aimed to keep sections short (on purpose) to avoid an overload of information. This design concept 
+allows me to keep the sections smaller and not overload a user with information. This design allows the page to flow easily from one section to the next, picking up useful 
+information along the way.
 
-From anywhere on this portfolio page, you can get to any information in 4 or less clicks.
+From anywhere on this portfolio page, you can get to any information in 4 or less clicks. 
 
 ### <ins>**_Responsive Design:_**</ins>
 Each section of this project is responsive. All sections are contained within collapsable sections to allow a great user experience across all devices.
