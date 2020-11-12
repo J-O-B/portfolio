@@ -248,20 +248,7 @@ structure paragraph lengths and other features.
 
 --------------------
 ## **Deployment**
-### <ins>**_Local Deployment:_**</ins>
-This project was developed in the Cloud9 IDE. Throughout this project, files have been committed to git and pushed to GitHub using the built in function on Cloud9.
 
-To deploy this project on your local system, you can follow these steps:
-
->1. Navigate to my GitHub repository which can be found [here](https://github.com/J-O-B/portfolio).
->2. Above the files, there is a button with a download symbol and the text "Code"
->3. Once you click the button "Code" you will have an option to "Download ZIP"
->4. Download the ZIP file and extract the folder on your local computer.
->5. Open the index.html to deploy this website locally.
-
-**Please note that all files and folders must be kept in their original locations (folders) for page links (to internal resources such as images) to work. External links to social media etc. will work regardless.**
-
-    
 ### <ins>**_Remote Deployment:_**</ins>
 To deploy this project remotely, you can follow these steps:
 >1. Log Into GitHub.
@@ -276,6 +263,26 @@ To deploy this project remotely, you can follow these steps:
 >7. Once you have selected "master" click the "Save" button. 
 >8. The page should now refresh so you may have to scroll back down to "GitHub Pages".
 >9. Now you will see a link presented which should look like this https://j-o-b.github.io/portfolio/.
+
+### <ins>**_Cloning This Project:_**</ins>
+>1. On GitHub, navigate to the main page of the repository.
+>2. Above the list of files, click download Code icon. (a down arrow with a line under it)
+>3. To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, 
+> including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon. 
+> To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
+>4. Open Git Bash.
+>5. Change the current working directory to the location where you want the cloned directory.
+>6. Type git clone, and then paste the URL you copied earlier.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+>7. Press Enter to create your local clone.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        > Cloning into `Spoon-Knife`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
+
+(Further information on cloning can be found at [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ----------------------
 ## **Credits**
 Although most of the content and code in this project are my own, I have also used code snippets from bootstrap, for example, the modal popup is the standard bootstrap modal which was then changed to the specifications I wanted.
