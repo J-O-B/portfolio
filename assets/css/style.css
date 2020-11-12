@@ -170,13 +170,13 @@ img{
 }
 
 .products .btn {
-    background: white;
-    border-color: white;
+    background: #000000;
+    border-color: #000000;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #f26D50;
 }
 /* -------------------------------------------Block Dividers-------------------------------------- */
 .block-divider {
