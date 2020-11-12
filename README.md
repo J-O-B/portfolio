@@ -114,22 +114,26 @@ Alternatively, you can navigate to the Assets folder, then open the Readme folde
 
 ### <ins>**_User Stories_**</ins>
 
-|Being a personal portfolio the following user stories specific to this project are: |
-|------------------------------------------------------- |
-|* **As the creator I want to:** *Introduce myself to recruiters or collaborators.* |
-|* **As the creator I want to:** *Showcase my skills.* |
-|* **As the creator I want to:** *Show my projects.* |
-|* **As the creator I want to:** *Breakdown what I can do to show specific areas of expertise (incase of freelance work).* |
-|* **As the creator I want to:** *Get contacted about potential job or work opportunities.* |
-| 
-|* **As a user I want to:** *Know who John is?* |
-|* **As a user I want to:** *Know Johns skills* |
-|* **As a user I want to:** *Know what experience John has?* |
-|* **As a user I want to:** *Know what projects John has worked on / completed?* |
-|* **As a user I want to:** *Know what services can John O'Brien add to our company?* |
-|* **As a user I want to:** *Download a CV.* |
-|* **As a user I want to:** *View John's social media.* |
-|* **As a user I want to:** *Contact John.* |
+Being a personal portfolio the following user stories specific to this project are: 
+
+| **As the creator I want to:** |
+| ------------------------------------------------------- |
+|1. *Introduce myself to recruiters or collaborators.* |
+|2. *Showcase my skills.* |
+|3. *Show my projects.* |
+|4. *Breakdown what I can do to show specific areas of expertise (incase of freelance work).* |
+|5. *Get contacted about potential job or work opportunities.* |
+
+| **As a user I want to:** |
+| ------------------------------------------------------- |
+|1. *Know who John is?* |
+|2. *Know Johns skills* |
+|3. *Know what experience John has?* |
+|4. *Know what projects John has worked on / completed?* |
+|5. *Know what services can John O'Brien add to our company?* |
+|6. *Download a CV.* |
+|7. *View John's social media.* |
+|8. *Contact John.* |
 
 
 ### <ins>**_Information Architectures_**</ins>
