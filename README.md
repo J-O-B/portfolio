@@ -213,18 +213,22 @@ dev tools to ensure compliance across all categories.
 ![Lighthouse Test](assets/readme/lighthouse.jpg)
 
 ### Performance:
-> To boost my performance score, I have changed all my images to .jpg format, as well as lowered their size, but not to a point that changed their overall quality. This
-is why my performance score is not higher. I was not willing to lower the quality of the design element of my page to improve this score.
+> To boost my performance score, I have changed all my images to .jpg format, as well as lowered their size, but not to a point that changed their overall quality. To 
+raise this score, I could possibly have used "next gen" format such as WebP. With that being said, I was not willing to lower the quality of the design of my page to 
+improve this score.
 
 ### Accessibility:
 > To increase accessibility I have used alt text, screen reader text (where needed) and have implemented JavaScript buttons for my audio file instead of the basic 
-HTML 'audio controls', this will allow users who cannot use a mouse access the specific buttons.
+HTML 'audio controls', this will allow users who cannot use a mouse access the specific buttons. This page also implements structured heading order. I have also implemented 
+colors, and designs that are accepted under [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (Web Content Accessibility Guidelines).
 
 ### Best Practices:
-> Unfortunately this section seemed to pick up that my logo should have been bigger, even though my logo is sized specific to this project and is therefore displayed at 100%. Once again, I chose the design feature of having my logo was more important than raising this section to 100%.
+> Unfortunately lighthouse was picking up my image as if it should be a larger image ("Expected Size: 486 x 180"), I did try to see how this size worked, but I did not 
+like the look, hence the lower score.
 
 ### SEO:
-> Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles.
+> Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles such as heading 
+structure paragraph lengths and other features.
 
 --------------------
 ## **Deployment**
