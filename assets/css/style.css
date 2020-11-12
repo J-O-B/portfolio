@@ -46,7 +46,7 @@ img{
 @media only screen and (min-width:1350px){
 .social-bar {
     position: fixed;
-    top: 35%;
+    top: 33%;
     list-style-type: none;
 }
 .social-bar i{
@@ -122,7 +122,6 @@ img{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 /* --------------------------------------Page headers----------------------------------- */
 .page-header {
     margin-bottom: 0;
@@ -141,9 +140,9 @@ img{
 .contact,
 .work,
 .page-header {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
-
 /*------------------------------------ Card Containers-------------------------------------*/
 .about,
 .skills,
@@ -350,7 +349,8 @@ img{
     margin-top:50px;
 }
 
-.contact-form{
+#contact-form{
+    width:90%;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -504,7 +504,7 @@ img{
 .project-container,
 .product-container,
 .work-container {
-    background: rgba(0, 21, 107, 0.2);
+    background: transparent;
     transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
@@ -512,11 +512,11 @@ img{
 }
 
 .about-container:hover,
-.skills-container:hover,
+.skill-container:hover,
 .project-container:hover,
 .product-container:hover,
 .work-container:hover {
-    background: rgba(0, 21, 107, 0.3);
+    background: rgba(0, 21, 107, 0.2);
 }
 /*entry animation from Animista (keyframes in keyframe section)*/
 .slide-in-blurred-left {

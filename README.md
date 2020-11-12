@@ -282,19 +282,19 @@ Although most of the content and code in this project are my own, I have also us
 >
 >**Content Writing Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/cms-wordpress-265127/)
 >
->**HTML Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
+>**HTML Logo** - [CleanPNG](https://www.cleanpng.com/png-web-development-html-logo-world-wide-web-consortiu-634943/)
 >
->**Java Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
+>**Java Logo** - [CleanPNG](https://www.cleanpng.com/png-java-logo-programming-language-java-plum-964780/)
 >
->**JavaScript Logo** - [Free PNG Logos](https://www.freepnglogos.com/pics/javascript)
+>**JavaScript Logo** - [CleanPNG](https://www.cleanpng.com/png-javascript-logo-html-comment-blog-1647031/)
 >
->**CSS Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
+>**CSS Logo** - [CleanPNG](https://www.cleanpng.com/png-web-development-cascading-style-sheets-css3-html-1615602/)
 >
->**Bootstrap Logo** - [Pixabay Stock & Royalty Free Image](https://www.piecex.com/articles/Migrating-to-Bootstrap-4-280)
+>**Bootstrap Logo** - [PieceX](https://www.piecex.com/articles/Migrating-to-Bootstrap-4-280)
 >
->**Python Logo** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/illustrations/wordpress-joomla-drupal-bootstrap-3288420/)
+>**Python Logo** - [CleanPNG](https://www.cleanpng.com/png-python-computer-icons-tutorial-computer-programmin-1216454/)
 >
->**SQL Logo** - [SubPNG](https://www.subpng.com/png-5boseb/)
+>**SQL Logo** - [CleanPNG](https://www.cleanpng.com/png-microsoft-azure-sql-database-microsoft-sql-server-870894/download-png.html)
 >
 >**SEO Image** - [Pixabay Stock & Royalty Free Image](https://pixabay.com/photos/search-engine-optimization-seo-4111000/)
 >
