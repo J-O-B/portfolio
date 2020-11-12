@@ -390,7 +390,7 @@ img{
 
 .download-button,
 .download-button i{
-    background: rgba(240, 95, 64, 1);
+    background: #F26D50;
     color:#fafafa;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -458,11 +458,21 @@ img{
     border-radius: 23px;
     width: 160px;
 }
+/*change colors due WCAG compliance */
+.btn-info{
+    background-color:#00D4F5;
+    color:#000000;
+}
+
+.btn-success{
+    color: #000000;
+    background-color: #41B45C;
+}
 
 .btn--red {
     color: #fafafa;
-    background-color: rgba(240, 95, 64, 1);
-    border-color: rgba(240, 95, 64, 1);
+    background-color: #F26D50;
+    border-color: #F26D50;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
