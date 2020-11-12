@@ -391,7 +391,7 @@ img{
 .download-button,
 .download-button i{
     background: #F26D50;
-    color:#fafafa;
+    color:#000000;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
@@ -483,9 +483,9 @@ img{
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background: #fafafa;
-    border-color: #fafafa;
-    color: rgba(240, 95, 64, 1);
+    background-color: #000000;
+    border-color: #F26D50;
+    color: #F26D50;
 }
 /*-------------------------------------------------------------------- Animation Section ------------------*/
 /*This '.feature' animation is based on scale transform from W3 Schools (w3schools.com/css/css3_2dtransforms.asp)*/
