@@ -287,8 +287,8 @@ colors, and designs that are accepted under [WCAG](https://www.w3.org/WAI/standa
 ![WCAG Test Result](assets/readme/wcag-valid.jpg)
 
 ### Best Practices:
-> Unfortunately lighthouse was picking up my image as if it should be a larger image ("Expected Size: 486 x 180"), I did try to see how this size worked, but I did not 
-like the look, hence the lower score.
+> Unfortunately lighthouse was picking up my logo as if it should be a larger image ("Expected Size: 486 x 180"), I did try to see how this size worked, but I did not 
+like the look, hence the lower score, without the logo this score was 100. 
 
 ### SEO:
 > Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles such as heading 
@@ -321,8 +321,11 @@ To deploy this project remotely, you can follow these steps:
 >4. Open Git Bash.
 >5. Change the current working directory to the location where you want the cloned directory.
 >6. Type git clone, and then paste the URL you copied earlier.
+        
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        
 >7. Press Enter to create your local clone.
+        
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
         > Cloning into `Spoon-Knife`...
         > remote: Counting objects: 10, done.
@@ -331,6 +334,7 @@ To deploy this project remotely, you can follow these steps:
         > Unpacking objects: 100% (10/10), done.
 
 (Further information on cloning can be found at [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 ----------------------
 ## **Credits**
 Although most of the content and code in this project are my own, I have also used code snippets from bootstrap, for example, the modal popup is the standard bootstrap modal which was then changed to the specifications I wanted.
