@@ -323,7 +323,7 @@ To deploy this project remotely, you can follow these steps:
 >6. Type git clone, and then paste the URL you copied earlier.
         
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-        
+
 >7. Press Enter to create your local clone.
         
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -346,6 +346,7 @@ Although most of the content and code in this project are my own, I have also us
 >* The footer layout is based on the footer section used in the Resume tutorial.
 >* The modal feature is based on a code snippet from [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/components/modal/).
 >* The "feature" section of my CSS is original yet based on a tutorial from W3Schools.com
+>* [Grammarly.com](https://grammarly.com) for spelling and grammar.
     
 
 ### <ins>**_Media:_**</ins>
