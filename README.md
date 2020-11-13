@@ -239,10 +239,10 @@ The contact form is currently working thanks to a free website called [FormSpree
 has allowed me to create a basic HTML form, without the need for any additional JavaScript or PHP.
 
 Accessibility is a huge part of this project. To help users who may depend on this, I have included ALT text for every image on the page, 
-I prior to using a certain color, I have checked the contrast of colors between the foreground and background to comply with [WCAG guidelines](https://color.a11y.com/ContrastPair/), 
+prior to using a certain color, I have checked the contrast of colors between the foreground and background to comply with [WCAG guidelines](https://color.a11y.com/ContrastPair/), 
 as well as include screen reader text for every button to assist the visually impared. I initially included a basic HTML audio file, however, after reading that 
-the standard HTML 'audio controls' do not comply with keyboard accessibility, I added a two simple JavaScript buttons (Play/Pause and Stop), this JavaScript is attached onto the HTML 
-code which now allows keyboard accessibility to this function.
+the standard HTML 'audio controls' do not comply with keyboard accessibility (in some browsers), I added a two simple JavaScript buttons (Play/Pause and Stop), this JavaScript is attached onto the HTML 
+audio code which now allows keyboard accessibility to this function.
 
 ### <ins>**_Future Features:_**</ins>
 In the future this portfolio will include more JavaScript, for example, the 'back to top' button would be nicer if it was a scrolling motion rather than a simple jump 
@@ -260,7 +260,7 @@ The form on this portfolio page also uses a 3rd party email provider to deliver 
 
 ---------------------
 ## **Testing**
-To test this project I first used [W3C_validator](https://validator.w3.org/) to check all HTML, I then checked all of the CSS via the [W3C_Validation](https://jigsaw.w3.org/css-validator/).
+To test this project I first used [W3 Validator](https://validator.w3.org/) to check all HTML, I then checked all of the CSS via the [W3 'Jigsaw' Validator](https://jigsaw.w3.org/css-validator/).
 
 ![Testing](assets/readme/testing.jpg)
 
@@ -291,7 +291,7 @@ colors, and designs that are accepted under [WCAG](https://www.w3.org/WAI/standa
 like the look, hence the lower score, without the logo this score was 100. 
 
 ### SEO:
-> Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles such as heading 
+> This project follows basic SEO principles including a meta description, a favicon, and other basic SEO principles such as heading 
 structure paragraph lengths and other features.
 
 --------------------
@@ -321,17 +321,7 @@ To deploy this project remotely, you can follow these steps:
 >4. Open Git Bash.
 >5. Change the current working directory to the location where you want the cloned directory.
 >6. Type git clone, and then paste the URL you copied earlier.
-        
-        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
 >7. Press Enter to create your local clone.
-        
-        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-        > Cloning into `Spoon-Knife`...
-        > remote: Counting objects: 10, done.
-        > remote: Compressing objects: 100% (8/8), done.
-        > remove: Total 10 (delta 1), reused 10 (delta 1)
-        > Unpacking objects: 100% (10/10), done.
 
 (Further information on cloning can be found at [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
@@ -392,8 +382,6 @@ Navbar: Idea for layout taken from Whiskey Drop.
 
 Footer: Layout idea taken from Resume walkthrough.
 
-Bootstrap: Structure of sections, modal popup, 
-
 Animista: Entrance animation for title text.
 
 W3Schools: CSS feature to scale on hover (although this was then edited to my liking).
@@ -423,5 +411,3 @@ I would like to acknowledge both my mentor <ins>Caleb Mbakwe</ins> for his tips 
 
 ### Contact Form:
 ![Contact John](assets/readme/contact.jpg)
-![social media](assets/readme/social.jpg)
-![John CV](assets/readme/CV.jpg)
